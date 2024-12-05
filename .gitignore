@@ -187,3 +187,12 @@ EXP/EXP1/finetuning-EXP1numberone-test/fine_tuned_model/
 EXP/EXP1/finetuning-EXP1numberone-test/fine_tuned_model/adapter_model.safetensors
 
 EXP/EXP1/finetuning-EXP1numberone-test/fine_tuned_model/adapter_config.json
+
+EXP/EXP1/finetuning-EXP2numberone/fine_tuned_model/
+EXP/EXP1/finetuning-EXP2numberone/images/
+
+EXP/EXP1/finetuning-EXP2numbertwo/fine_tuned_model/
+EXP/EXP1/finetuning-EXP2numbertwo/images/
+
+EXP/EXP1/finetuning-EXP2numberthree/fine_tuned_model/
+EXP/EXP1/finetuning-EXP2numberthree/images/
