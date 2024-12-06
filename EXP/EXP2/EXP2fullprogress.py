@@ -39,30 +39,35 @@ login('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')
 IMAGES_PER_TASK = 5000
 MAX_EPOCHS = 10
 NUM_TEST_ROWS = 55
-VAL_CHECK_INTERVAL = 1000
-CSV_FILENAME = "EXP1_results.csv"
+VAL_CHECK_INTERVAL = 4500
+CSV_FILENAME = "EXP2_results.csv"
 EVALUATION_TIME = 3
-
-#CHECKPOINT_DIR = "/hpcstor6/scratch01/h/huuthanhvy.nguyen001/cache/checkpoint"
-#last_checkpoint = os.path.join(CHECKPOINT_DIR, "last.ckpt")  # Use the correct checkpoint directory
-
 
 # Task-specific queries
 QUERIES = {
-    "position_common_scale": "Estimate the block's vertical position (range: 0-60, top to bottom). Number only. No explanation.",
-    "position_non_aligned_scale": "Estimate the block's vertical position (range: 0-60, top to bottom). Number only. No explanation.",
-    "length": "Estimate the line length from top to bottom (range: 0-100). Number only. No explanation.",
-    "direction": "Estimate the line's direction (range: 0-359 degrees). Number only. No explanation.",
-    "angle": "Estimate the angle (range: 0-90 degrees). Number only. No explanation.",
-    "area": "Estimate the area of a circle, ensuring your answer falls within the range of 3.14 to 5026.55 square units. Assume the circle fits within a 100x100 pixel image. Provide only the numeric value, no explanation.",
-    "volume": "Estimate the volume of a cube, with your answer restricted to the range of 1 to 8000 cubic units. Assume the cube fits within a 100x100 pixel image. Provide only the numeric value, no explanation.",
-    "curvature": "Estimate the line curvature (range: 0.000 to 0.088) of a Bezier curve constrained within a 100x100 pixel space. Provide only the numeric curvature value (up to 3 decimal places), no explanation.",
-    "shading": "Estimate shading density (range: 0-100). Number only. No explanation."
+    "pie": (
+            "The pie chart you are looking at is created as follows: "
+            "First, create a list of five values where each value is between 3 and 39, and all values add up to 100. "
+            "Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. "
+            "Now, look at the pie chart again. "
+            "Identify the largest segment, which is marked with a dot. "
+            "Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. "
+            "Format your answer as [1.0, x.x, x.x, x.x, x.x]."
+        ),
+        "bar": (
+            "The bar chart you are looking at is created as follows: "
+            "First, create a list of five values where each value is between 3 and 39, and all values add up to 100. "
+            "Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. "
+            "Now, look at the bar chart again. "
+            "Identify the largest bar, which is marked with a dot. "
+            "Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. "
+            "Format your answer as [1.0, x.x, x.x, x.x, x.x]."
+        )
 }
 
-""" Step 1: Generate EXP1 DATASET """
+""" Step 1: Generate exp2 DATASET """
 
-def generate_dataset_exp1(main_output_dir, images_per_task=IMAGES_PER_TASK):
+def generate_dataset_exp2(main_output_dir, images_per_task=IMAGES_PER_TASK):
     """
     Generate datasets for multiple tasks with no overlaps and save them to JSON files.
 
@@ -73,18 +78,29 @@ def generate_dataset_exp1(main_output_dir, images_per_task=IMAGES_PER_TASK):
     Returns:
         None
     """
-    # Define tasks and questions
+    
+    # Define the tasks and corresponding questions
     tasks = {
-        "position_common_scale": "Estimate the block's vertical position (range: 0-60, top to bottom). Number only. No explanation.",
-        "position_non_aligned_scale": "Estimate the block's vertical position (range: 0-60, top to bottom). Number only. No explanation.",
-        "length": "Estimate the line length from top to bottom (range: 0-100). Number only. No explanation.",
-        "direction": "Estimate the line's direction (range: 0-359 degrees). Number only. No explanation.",
-        "angle": "Estimate the angle (range: 0-90 degrees). Number only. No explanation.",
-        "area": "Estimate the area of a circle, ensuring your answer falls within the range of 3.14 to 5026.55 square units. Assume the circle fits within a 100x100 pixel image. Provide only the numeric value, no explanation.",
-        "volume": "Estimate the volume of a cube, with your answer restricted to the range of 1 to 8000 cubic units. Assume the cube fits within a 100x100 pixel image. Provide only the numeric value, no explanation.",
-        "curvature": "Estimate the line curvature (range: 0.000 to 0.088) of a Bezier curve constrained within a 100x100 pixel space. Provide only the numeric curvature value (up to 3 decimal places), no explanation.",
-        "shading": "Estimate shading density (range: 0-100). Number only. No explanation."
+        "pie": (
+            "The pie chart you are looking at is created as follows: "
+            "First, create a list of five values where each value is between 3 and 39, and all values add up to 100. "
+            "Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. "
+            "Now, look at the pie chart again. "
+            "Identify the largest segment, which is marked with a dot. "
+            "Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. "
+            "Format your answer as [1.0, x.x, x.x, x.x, x.x]."
+        ),
+        "bar": (
+            "The bar chart you are looking at is created as follows: "
+            "First, create a list of five values where each value is between 3 and 39, and all values add up to 100. "
+            "Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. "
+            "Now, look at the bar chart again. "
+            "Identify the largest bar, which is marked with a dot. "
+            "Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. "
+            "Format your answer as [1.0, x.x, x.x, x.x, x.x]."
+        )
     }
+
 
     # Define the target number of images for each task in the dataset
     train_target = images_per_task
@@ -118,36 +134,35 @@ def generate_dataset_exp1(main_output_dir, images_per_task=IMAGES_PER_TASK):
             all_counter += 1  # Track total iterations for debugging
 
             # Generate image and label using the custom module
-            sparse, image_array, label, parameters = L.GPImage.figure1(task)
+            image_array, label = L.GPImage.figure3(task)
 
             # Determine which dataset the label belongs to
             pot = np.random.choice(3)
-
-            if (label, sparse, parameters) in train_labels:
+            if label in train_labels:
                 pot = 0
-            if (label, sparse, parameters) in val_labels:
+            elif label in val_labels:
                 pot = 1
-            if (label, sparse, parameters) in test_labels:
+            elif label in test_labels:
                 pot = 2
 
             # Training dataset
             if pot == 0 and train_counter < train_target:
-                if (label, sparse, parameters) not in train_labels:
-                    train_labels.append((label, sparse, parameters))
+                if label not in train_labels:
+                    train_labels.append(label)
                 process_and_save_image(image_array, label, question, combined_dataset_training, image_output_dir, task)
                 train_counter += 1
 
             # Validation dataset
             elif pot == 1 and val_counter < val_target:
-                if (label, sparse, parameters) not in val_labels:
-                    val_labels.append((label, sparse, parameters))
+                if label not in val_labels:
+                    val_labels.append(label)
                 process_and_save_image(image_array, label, question, combined_dataset_validation, image_output_dir, task)
                 val_counter += 1
 
             # Test dataset
             elif pot == 2 and test_counter < test_target:
-                if (label, sparse, parameters) not in test_labels:
-                    test_labels.append((label, sparse, parameters))
+                if label not in test_labels:
+                    test_labels.append(label)
                 process_and_save_image(image_array, label, question, combined_dataset_testing, image_output_dir, task)
                 test_counter += 1
 
@@ -161,10 +176,18 @@ def generate_dataset_exp1(main_output_dir, images_per_task=IMAGES_PER_TASK):
     }
     save_datasets_to_json(datasets, main_output_dir)
 
-def display_training_samples_exp1(main_output_dir="finetuning-EXP1-5000-test", num_images=2):
+    # Save datasets to JSON files
+    datasets = {
+        "train": combined_dataset_training,
+        "val": combined_dataset_validation,
+        "test": combined_dataset_testing
+    }
+    save_datasets_to_json(datasets, main_output_dir)
+
+def display_training_samples_exp2(main_output_dir="finetuning-EXP2-5000-test", num_images=2):
     """
-    Display a specified number of random images for each task from the training dataset
-    for Experiment 1 (position, length, direction, etc.).
+    Display a specified number of random images for each task and dataset 
+    (training, validation, testing) after dataset generation, including rounded labels and prompts.
 
     Parameters:
         main_output_dir (str): Directory where datasets and images are stored.
@@ -174,94 +197,114 @@ def display_training_samples_exp1(main_output_dir="finetuning-EXP1-5000-test", n
         None
     """
 
-    # Define tasks and questions
-    tasks = {
-        "position_common_scale": "Please estimate the vertical position of the block relative to the line on the left (Top is 0, Bottom is 60). So the range is 0 - 60. No explanation.",
-        "position_non_aligned_scale": "Please estimate the vertical position of the block relative to the line on the left (Top is 22, Bottom is 40). So the range is 22 - 40. No explanation.",
-        "length": "Estimate the line length from top to bottom (range: 0-100). Number only. No explanation.",
-        "direction": "Please estimate the direction of the line relative to the starting dot in the range 0 - 359 degrees. No explanation.",
-        "angle": "Please estimate the angle (0-90 degrees). No explanation.",
-        "area": "Estimate the area of a circle, ensuring your answer falls within the range of 3.14 to 5026.55 square units. Assume the circle fits within a 100x100 pixel image. Provide only the numeric value, no explanation.",
-        "volume": "Estimate the volume of a cube, with your answer restricted to the range of 1 to 8000 cubic units. Assume the cube fits within a 100x100 pixel image. Provide only the numeric value, no explanation.",
-        "curvature": "Please estimate the curvature of the line. (0 is no curvature - 1 is the maximum curvature) The more bend the line is, the higher the curvature. No explanation.",
-        "shading": "Please estimate the shading density or texture density (range 0 to 100). No explanation."
+   # Define tasks and prompts for pie and bar charts
+    task_prompts = {
+        "pie": (
+            "The pie chart you are looking at is created as follows: "
+            "First, create a list of five values where each value is between 3 and 39, and all values add up to 100. "
+            "Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. "
+            "Now, look at the pie chart again. "
+            "Identify the largest segment, which is marked with a dot. "
+            "Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. "
+            "Format your answer as [1.0, x.x, x.x, x.x, x.x]."
+        ),
+        "bar": (
+            "The bar chart you are looking at is created as follows: "
+            "First, create a list of five values where each value is between 3 and 39, and all values add up to 100. "
+            "Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. "
+            "Now, look at the bar chart again. "
+            "Identify the largest bar, which is marked with a dot. "
+            "Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. "
+            "Format your answer as [1.0, x.x, x.x, x.x, x.x]."
+        )
     }
-
-    # Load training dataset
+    
+    # Define dataset file paths
     json_output_dir = os.path.join(main_output_dir, "json")
     train_file = os.path.join(json_output_dir, "train_dataset.json")
-    
+
+
+    # Load datasets
     with open(train_file, 'r') as f:
         train_dataset = json.load(f)
 
-    print("\n" + "="*70)
-    print("Displaying Training Dataset Samples")
-    print("="*70)
+    # Group datasets for display with visual indicators
+    datasets = {
+        "🔵 Training": train_dataset,
 
-    # Group images and labels by task
-    task_images = {task: [] for task in tasks.keys()}
-    task_labels = {task: [] for task in tasks.keys()}
+    }
 
-    for entry in train_dataset:
-        if entry['task'] in tasks:
+    # Display random images for each dataset and task
+    for dataset_name, dataset in datasets.items():
+        print("\n" + "="*70)
+        print(f"📸 Displaying random images for {dataset_name} dataset:")
+        print("="*70)
+
+        # Group images and labels by task
+        task_images = {"pie": [], "bar": []}
+        task_labels = {"pie": [], "bar": []}
+
+        for entry in dataset:
             task_images[entry['task']].append(entry['image'])
             task_labels[entry['task']].append(entry['value'])
 
+        # Display samples for each task
+        for task, images in task_images.items():
+            if len(images) < num_images:
+                print(f"⚠️  Not enough images for task '{task}' in training dataset.")
+                continue
 
-    # Display samples for each task
-    for task, images in task_images.items():
-        if len(images) < num_images:
-            print(f"Not enough images for task '{task}' in training dataset.")
-            continue
+            print(f"\n📌 Task: {task.upper()}")
+            print(f"Displaying {num_images} random samples")
+            print("-"*50)
 
-        print(f"\nTask: {task.upper()}")
-        print(f"Displaying {num_images} random samples")
-        print("-"*50)
+            # Select random images and their corresponding labels
+            indices = random.sample(range(len(images)), num_images)
+            random_images = [images[i] for i in indices]
+            random_labels = [
+                [round(x, 2) for x in label] if isinstance(label, list) else round(label, 2)
+                for label in [task_labels[task][i] for i in indices]
+            ]
 
-        # Select random images and their corresponding labels
-        indices = random.sample(range(len(images)), num_images)
-        random_images = [images[i] for i in indices]
-        random_labels = [task_labels[task][i] for i in indices]
-
-        # Plot the images with enhanced styling
-        fig, axes = plt.subplots(1, num_images, figsize=(15, 7))
-        fig.suptitle(f"Training Dataset: {task.upper()}", fontsize=16, y=1.05)
-        
-        # Add background color
-        fig.patch.set_facecolor('#f0f0f0')
-        
-        for i, (img_path, label) in enumerate(zip(random_images, random_labels)):
-            img_path_full = os.path.join(main_output_dir, img_path)
-            img = Image.open(img_path_full)
+            # Plot the images with enhanced styling
+            fig, axes = plt.subplots(1, num_images, figsize=(15, 9))
+            fig.suptitle(f"Training Dataset: {task.upper()} Task", fontsize=16, y=1.05)
             
-            if not isinstance(axes, np.ndarray):
-                axes = [axes]
+            # Add background color
+            fig.patch.set_facecolor('#f0f0f0')
             
-            axes[i].imshow(img, cmap="gray")
-            axes[i].axis("off")
-            axes[i].set_title(f"Sample {i+1}\nLabel: {label:.2f}", 
-                            bbox=dict(facecolor='white', alpha=0.8),
-                            pad=10)
-            
-            # Add border to each subplot
-            for spine in axes[i].spines.values():
-                spine.set_edgecolor('gray')
-                spine.set_linewidth(2)
+            for i, (img_path, label) in enumerate(zip(random_images, random_labels)):
+                img_path_full = os.path.join(main_output_dir, img_path)
+                img = Image.open(img_path_full)
+                
+                if not isinstance(axes, np.ndarray):
+                    axes = [axes]
+                
+                axes[i].imshow(img, cmap="gray")
+                axes[i].axis("off")
+                axes[i].set_title(f"Sample {i+1}\nLabel: {label}", 
+                                bbox=dict(facecolor='white', alpha=0.8),
+                                pad=10)
+                
+                # Add border to each subplot
+                for spine in axes[i].spines.values():
+                    spine.set_edgecolor('gray')
+                    spine.set_linewidth(2)
 
-        # Display the corresponding prompt below the images
-        prompt_text = tasks[task]
-        plt.figtext(0.5, 0.02, prompt_text, 
-                   wrap=True, 
-                   horizontalalignment='center', 
-                   fontsize=20,
-                   bbox=dict(facecolor='white', 
-                           edgecolor='gray',
-                           alpha=0.8,
-                           pad=10))
-        
-        plt.tight_layout()
-        plt.show()
-        print("\n")
+            # Display the corresponding prompt below the images
+            prompt_text = task_prompts[task]
+            plt.figtext(0.5, 0.1, prompt_text, 
+                    wrap=True, 
+                    horizontalalignment='center', 
+                    fontsize=18,
+                    bbox=dict(facecolor='white', 
+                            edgecolor='gray',
+                            alpha=0.8,
+                            pad=10))
+            
+            plt.tight_layout(rect=[0, 0.25, 1, 0.95])
+            plt.show()
+            print("\n")
 
     """ Use for all experiments"""
 def process_and_save_image(image_array, label, question, dataset, output_dir, task):
@@ -325,7 +368,7 @@ def save_datasets_to_json(datasets, output_dir):
                 raise
 
 
-def verify_dataset_and_show_images(main_output_dir="finetuning-EXP1-test"):
+def verify_dataset_and_show_images(main_output_dir="finetuning-EXP2-test"):
     """
     Verify dataset by identifying overlapping labels across datasets (training, validation, testing)
     and display unique images for overlapping labels using Matplotlib.
@@ -475,7 +518,7 @@ def verify_dataset_and_show_images(main_output_dir="finetuning-EXP1-test"):
         print("✅ No overlapping images found across datasets.")
     print("\n" + "=" * 50)
 
-def verify_dataset(main_output_dir="finetuning-EXP1-test"):
+def verify_dataset(main_output_dir="finetuning-EXP2-test"):
     """
     Verify the dataset by checking the number of images for each task,
     ensuring uniqueness across datasets, and identifying overlaps.
@@ -554,7 +597,7 @@ def verify_dataset(main_output_dir="finetuning-EXP1-test"):
     print(f"| 🟢 Test     | {len(test_labels):>17} |")
     print("\n" + "="*50)
 
-""" Step 2: Finetune EXP1 DATASET """
+""" Step 2: Finetune EXP2 DATASET """
 
 def configure_training_params():
 
@@ -589,7 +632,7 @@ def initialize_processor(model_id):
     """Initialize the processor for the model."""
     return AutoProcessor.from_pretrained(model_id)
 
-def define_data_module(data_dir, image_folder, processor, batch_size):
+def define_data_module(data_dir, image_folder, processor, batch_size, num_workers=31):
 
     """Define the data module for PyTorch Lightning."""
     class ImageTextDataModule(LightningDataModule):
@@ -599,6 +642,8 @@ def define_data_module(data_dir, image_folder, processor, batch_size):
             self.data_dir = data_dir
             self.image_folder = image_folder
             self.processor = processor
+            self.num_workers = num_workers
+
             self.batch_size = batch_size
             self.train_path = os.path.join(self.data_dir, 'train_dataset.json')
             self.val_path = os.path.join(self.data_dir, 'val_dataset.json')
@@ -647,10 +692,20 @@ def define_data_module(data_dir, image_folder, processor, batch_size):
             return self.process(batch)
 
         def train_dataloader(self):
-            return DataLoader(self.train_data, batch_size=self.batch_size, collate_fn=self.collate_fn)
+            return DataLoader(
+                self.train_data,
+                batch_size=self.batch_size,
+                collate_fn=self.collate_fn,
+                num_workers=self.num_workers  # Set num_workers
+            )
 
         def val_dataloader(self):
-            return DataLoader(self.val_data, batch_size=self.batch_size, collate_fn=self.collate_fn)
+            return DataLoader(
+                self.val_data,
+                batch_size=self.batch_size,
+                collate_fn=self.collate_fn,
+                num_workers=self.num_workers  # Set num_workers
+            )
 
     return ImageTextDataModule()
 
@@ -743,7 +798,7 @@ def define_model(model_id, learning_rate, weight_decay):
         weight_decay=weight_decay
     )
 
-def fine_tune_exp1(base_dir):
+def fine_tune_exp2(base_dir):
     """Main function to fine-tune the model."""
     dirs = setup_directories(base_dir)
     params = configure_training_params()
@@ -797,6 +852,7 @@ def fine_tune_exp1(base_dir):
         accelerator="gpu",
         devices=1,
         default_root_dir=dirs["base_dir"],
+        enable_checkpointing = False
     )
 
     # Start fine-tuning
@@ -814,7 +870,7 @@ def fine_tune_exp1(base_dir):
         print(f"State_dict saved to {dirs['save_dir']} as fallback.")
 
 
-""" Step 3: Evaluate EXP1 """
+""" Step 3: Evaluate EXP2 """
 
 def load_test_dataset(test_dataset_path):
     """
@@ -840,7 +896,7 @@ def save_results_to_csv(results, results_dir, csv_filename):
     results_df.to_csv(file_path, index=False)
     print(f"Results saved to: {file_path}")
 
-def Runexp1(test_dataset_path, results_dir, model_dir, csv_filename, image_base_dir):
+def Runexp2(test_dataset_path, results_dir, model_dir, csv_filename, image_base_dir):
     """
     Main function to run all tasks, evaluate models, and save results to CSV.
     """
@@ -936,9 +992,9 @@ def run_experiment(exp_num, num_to_word):
     """
     
     word = num_to_word.get(exp_num, str(exp_num))  # Default to the number if not in the map
-    exp_name = f"EXP1number{word}"  # Use EXP1numberone, EXP1numbertwo, etc.
+    exp_name = f"EXP2number{word}"  # Use EXP2numberone, EXP2numbertwo, etc.
 
-    main_output_dir = f"./finetuning-{exp_name}/"  # Update directory name
+    main_output_dir = f"/hpcstor6/scratch01/h/huuthanhvy.nguyen001/EXP2/finetuning-{exp_name}/"  # Update directory name
     os.makedirs(main_output_dir, exist_ok=True)
 
     log_file = setup_logging(main_output_dir, exp_name)
@@ -953,7 +1009,7 @@ def run_experiment(exp_num, num_to_word):
 
             # Step 1: Generate dataset
             print(f"\n{'='*20} DATASET GENERATION {'='*20}")
-            generate_dataset_exp1(main_output_dir=main_output_dir)
+            generate_dataset_exp2(main_output_dir=main_output_dir)
             dataset_time = time.time()
             print(f"Dataset generation completed in {dataset_time - start_time:.2f} seconds.")
             time.sleep(timesleep)
@@ -962,7 +1018,7 @@ def run_experiment(exp_num, num_to_word):
 
             # Step 2: Fine-tune dataset
             print(f"\n{'='*20} FINE-TUNING {'='*20}")
-            fine_tune_exp1(base_dir=main_output_dir)
+            fine_tune_exp2(base_dir=main_output_dir)
             fine_tune_time = time.time()
             print(f"Fine-tuning completed in {fine_tune_time - dataset_time:.2f} seconds.")
             time.sleep(timesleep)
@@ -978,7 +1034,7 @@ def run_experiment(exp_num, num_to_word):
             ensure_dir_exists(results_dir)
             ensure_dir_exists(image_base_dir)
 
-            Runexp1(
+            Runexp2(
                 test_dataset_path=test_dataset_path,
                 results_dir=results_dir,
                 model_dir=model_dir,
@@ -999,7 +1055,7 @@ def run_experiment(exp_num, num_to_word):
             print(f"Error details: {str(e)}")
             raise
 
-def run_multiple_experimentsEXP1():
+def run_multiple_experimentsEXP2():
     """
     Run multiple experiments, generating datasets, fine-tuning, and running evaluations.
     Designed to work within a SLURM framework, taking experiment numbers as arguments.

@@ -1,9 +1,10 @@
 #!/bin/bash
 
-#SBATCH --job-name=EXP1fullprogress
+#SBATCH --job-name=EXP2fullprogress
 
-#SBATCH --ntasks-per-node=4
-#SBATCH --cpus-per-task=8
+#SBATCH -n 1
+#SBATCH --cpus-per-task=32
+#SBATCH -w chimera13
 #SBATCH -N 1
 #SBATCH --account=haehn
 #SBATCH --qos=haehn_unlim
@@ -33,7 +34,7 @@ conda activate sbatch2
 EXP_NUM=$1
 
 # Run the Python script for the experiment
-python EXP1fullprogressrun.py $EXP_NUM
+python EXP2fullprogressrun.py $EXP_NUM
 
 # Log completion
 echo "Job completed for experiment $EXP_NUM"
