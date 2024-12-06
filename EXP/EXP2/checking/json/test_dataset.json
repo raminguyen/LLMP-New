@@ -1,0 +1,2602 @@
+[
+    {
+        "id": "977878ad-9310-455c-85b5-225df171f705",
+        "image": "images/pie_977878ad-9310-455c-85b5-225df171f705.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4545454680919647,
+            0.1515151560306549,
+            0.7878788113594055,
+            0.6363636255264282
+        ]
+    },
+    {
+        "id": "ebc7c272-e564-4407-8c72-091d2340ab89",
+        "image": "images/pie_ebc7c272-e564-4407-8c72-091d2340ab89.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6410256624221802,
+            0.4615384638309479,
+            0.1794871836900711,
+            0.28205129504203796
+        ]
+    },
+    {
+        "id": "5bc87a27-e71f-4f94-b18a-ab9d33d8fe46",
+        "image": "images/pie_5bc87a27-e71f-4f94-b18a-ab9d33d8fe46.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.21052631735801697,
+            0.28947368264198303,
+            0.5263158082962036,
+            0.6052631735801697
+        ]
+    },
+    {
+        "id": "c86ea585-3e51-4af6-8493-b721b912c3b1",
+        "image": "images/pie_c86ea585-3e51-4af6-8493-b721b912c3b1.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7428571581840515,
+            0.6000000238418579,
+            0.1428571492433548,
+            0.37142857909202576
+        ]
+    },
+    {
+        "id": "7685d3c8-9006-4c7b-931b-85226febfa59",
+        "image": "images/pie_7685d3c8-9006-4c7b-931b-85226febfa59.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3243243098258972,
+            0.5405405163764954,
+            0.21621622145175934,
+            0.6216216087341309
+        ]
+    },
+    {
+        "id": "9b9b6fef-fb03-4b86-a62a-e7793a3b6ac5",
+        "image": "images/pie_9b9b6fef-fb03-4b86-a62a-e7793a3b6ac5.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.31578946113586426,
+            0.42105263471603394,
+            0.15789473056793213,
+            0.7368420958518982
+        ]
+    },
+    {
+        "id": "dd2c035f-ef21-48c2-912d-9368ff14a940",
+        "image": "images/pie_dd2c035f-ef21-48c2-912d-9368ff14a940.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6363636255264282,
+            0.1515151560306549,
+            0.5151515007019043,
+            0.7272727489471436
+        ]
+    },
+    {
+        "id": "79d2eb9a-7bfe-4ccb-9247-700d3b014f4d",
+        "image": "images/pie_79d2eb9a-7bfe-4ccb-9247-700d3b014f4d.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7096773982048035,
+            0.12903225421905518,
+            0.8064516186714172,
+            0.5806451439857483
+        ]
+    },
+    {
+        "id": "adc8d75d-4d0e-48ea-a169-358a20666470",
+        "image": "images/pie_adc8d75d-4d0e-48ea-a169-358a20666470.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.10526315867900848,
+            0.4736842215061188,
+            0.7631579041481018,
+            0.28947368264198303
+        ]
+    },
+    {
+        "id": "8aae4484-78e0-41c7-9135-28be212856eb",
+        "image": "images/pie_8aae4484-78e0-41c7-9135-28be212856eb.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.37931033968925476,
+            0.6896551847457886,
+            0.5862069129943848,
+            0.7931034564971924
+        ]
+    },
+    {
+        "id": "d6613d00-efe9-415f-ab3f-1d06b2960ee1",
+        "image": "images/pie_d6613d00-efe9-415f-ab3f-1d06b2960ee1.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.9166666865348816,
+            0.1944444477558136,
+            0.3888888955116272,
+            0.2777777910232544
+        ]
+    },
+    {
+        "id": "7a42885b-3856-4c32-9eb3-ae2e22aac0dd",
+        "image": "images/pie_7a42885b-3856-4c32-9eb3-ae2e22aac0dd.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5,
+            0.1666666716337204,
+            0.3333333432674408,
+            0.7777777910232544
+        ]
+    },
+    {
+        "id": "35e4f520-112d-4aac-8993-2cfc7c8518ab",
+        "image": "images/pie_35e4f520-112d-4aac-8993-2cfc7c8518ab.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.21212121844291687,
+            0.3333333432674408,
+            0.6060606241226196,
+            0.8787878751754761
+        ]
+    },
+    {
+        "id": "11c999eb-b207-49bd-a757-da0270832909",
+        "image": "images/pie_11c999eb-b207-49bd-a757-da0270832909.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6666666865348816,
+            0.5666666626930237,
+            0.23333333432674408,
+            0.8666666746139526
+        ]
+    },
+    {
+        "id": "16d9f6f7-7ff1-4426-a645-9f3e5e556dca",
+        "image": "images/pie_16d9f6f7-7ff1-4426-a645-9f3e5e556dca.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1388888955116272,
+            0.4722222089767456,
+            0.3888888955116272,
+            0.7777777910232544
+        ]
+    },
+    {
+        "id": "6b3c2e50-82d5-4b8c-9548-d913ff9f6759",
+        "image": "images/pie_6b3c2e50-82d5-4b8c-9548-d913ff9f6759.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5333333611488342,
+            0.3333333432674408,
+            0.6666666865348816,
+            0.800000011920929
+        ]
+    },
+    {
+        "id": "1c67e8d1-4f21-4966-a76b-2d4fa2a37b63",
+        "image": "images/pie_1c67e8d1-4f21-4966-a76b-2d4fa2a37b63.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.20000000298023224,
+            0.11428571492433548,
+            0.6857143044471741,
+            0.8571428656578064
+        ]
+    },
+    {
+        "id": "c09ff88c-2e0e-4cbe-8739-4b5faa962a46",
+        "image": "images/pie_c09ff88c-2e0e-4cbe-8739-4b5faa962a46.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6857143044471741,
+            0.2571428716182709,
+            0.5142857432365417,
+            0.4000000059604645
+        ]
+    },
+    {
+        "id": "2d2e4370-f4df-42ad-a95f-3aefc075bc7e",
+        "image": "images/pie_2d2e4370-f4df-42ad-a95f-3aefc075bc7e.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5757575631141663,
+            0.27272728085517883,
+            0.7878788113594055,
+            0.39393940567970276
+        ]
+    },
+    {
+        "id": "b0297207-fe25-49d3-a226-1eed51c8318b",
+        "image": "images/pie_b0297207-fe25-49d3-a226-1eed51c8318b.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3888888955116272,
+            0.2777777910232544,
+            0.9166666865348816,
+            0.1944444477558136
+        ]
+    },
+    {
+        "id": "7f2a24ab-70a5-4247-9909-162d4fc78878",
+        "image": "images/pie_7f2a24ab-70a5-4247-9909-162d4fc78878.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.29729729890823364,
+            0.1621621549129486,
+            0.8108108043670654,
+            0.4324324429035187
+        ]
+    },
+    {
+        "id": "db716ff3-81a2-43c0-bbc5-3e3e3cd87d47",
+        "image": "images/pie_db716ff3-81a2-43c0-bbc5-3e3e3cd87d47.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.13513512909412384,
+            0.5945945978164673,
+            0.2702702581882477,
+            0.7027027010917664
+        ]
+    },
+    {
+        "id": "486c35f8-aa7a-42c2-93fe-81fb6953cc50",
+        "image": "images/pie_486c35f8-aa7a-42c2-93fe-81fb6953cc50.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8333333134651184,
+            0.5333333611488342,
+            0.7333333492279053,
+            0.23333333432674408
+        ]
+    },
+    {
+        "id": "b6a8a8ea-c03c-4d4d-9947-cca524d6920b",
+        "image": "images/pie_b6a8a8ea-c03c-4d4d-9947-cca524d6920b.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7878788113594055,
+            0.1515151560306549,
+            0.4848484992980957,
+            0.6060606241226196
+        ]
+    },
+    {
+        "id": "aedd14af-7231-4635-8367-c6e1016c94a5",
+        "image": "images/pie_aedd14af-7231-4635-8367-c6e1016c94a5.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6000000238418579,
+            0.11428571492433548,
+            0.2571428716182709,
+            0.8857142925262451
+        ]
+    },
+    {
+        "id": "4734de81-ce90-49f3-ab4f-aa0d51196997",
+        "image": "images/pie_4734de81-ce90-49f3-ab4f-aa0d51196997.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3333333432674408,
+            0.43589743971824646,
+            0.5384615659713745,
+            0.25641027092933655
+        ]
+    },
+    {
+        "id": "48211358-804d-4a62-a56d-1ffc3e33bd9f",
+        "image": "images/pie_48211358-804d-4a62-a56d-1ffc3e33bd9f.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.29411765933036804,
+            0.8823529481887817,
+            0.6470588445663452,
+            0.11764705926179886
+        ]
+    },
+    {
+        "id": "3d2a0e88-81c1-4ec3-a2b0-f3c00af8f6cb",
+        "image": "images/pie_3d2a0e88-81c1-4ec3-a2b0-f3c00af8f6cb.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.837837815284729,
+            0.45945945382118225,
+            0.1621621549129486,
+            0.2432432472705841
+        ]
+    },
+    {
+        "id": "0da532af-edeb-4a70-90ac-998aae530307",
+        "image": "images/pie_0da532af-edeb-4a70-90ac-998aae530307.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.10526315867900848,
+            0.42105263471603394,
+            0.8421052694320679,
+            0.2631579041481018
+        ]
+    },
+    {
+        "id": "6e3f98a5-ceae-4e53-adbc-e3790404e6b4",
+        "image": "images/pie_6e3f98a5-ceae-4e53-adbc-e3790404e6b4.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7692307829856873,
+            0.5384615659713745,
+            0.6538461446762085,
+            0.8846153616905212
+        ]
+    },
+    {
+        "id": "ae1f71f0-5a0c-45e5-a94e-f28059751bdf",
+        "image": "images/pie_ae1f71f0-5a0c-45e5-a94e-f28059751bdf.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.9166666865348816,
+            0.2222222238779068,
+            0.1388888955116272,
+            0.5
+        ]
+    },
+    {
+        "id": "81a2c595-3c94-4afa-b395-8e3d5f5ab07a",
+        "image": "images/pie_81a2c595-3c94-4afa-b395-8e3d5f5ab07a.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.21212121844291687,
+            0.5454545617103577,
+            0.8484848737716675,
+            0.42424243688583374
+        ]
+    },
+    {
+        "id": "444480b7-e26f-4d90-bef1-9324e6bad1d4",
+        "image": "images/pie_444480b7-e26f-4d90-bef1-9324e6bad1d4.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5128205418586731,
+            0.10256410390138626,
+            0.5897436141967773,
+            0.3589743673801422
+        ]
+    },
+    {
+        "id": "f5c23841-543d-4bf0-88f4-c50497bff4dd",
+        "image": "images/pie_f5c23841-543d-4bf0-88f4-c50497bff4dd.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.800000011920929,
+            0.11428571492433548,
+            0.2571428716182709,
+            0.6857143044471741
+        ]
+    },
+    {
+        "id": "01a78033-f275-4973-8534-4d78fe21385e",
+        "image": "images/pie_01a78033-f275-4973-8534-4d78fe21385e.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1428571492433548,
+            0.3142857253551483,
+            0.6285714507102966,
+            0.7714285850524902
+        ]
+    },
+    {
+        "id": "3d089207-fcee-4d88-a919-23840124ad50",
+        "image": "images/pie_3d089207-fcee-4d88-a919-23840124ad50.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4838709533214569,
+            0.8064516186714172,
+            0.6129032373428345,
+            0.32258063554763794
+        ]
+    },
+    {
+        "id": "fb262802-f539-4176-8fa4-67b5380dc7ee",
+        "image": "images/pie_fb262802-f539-4176-8fa4-67b5380dc7ee.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.9090909361839294,
+            0.12121212482452393,
+            0.7878788113594055,
+            0.21212121844291687
+        ]
+    },
+    {
+        "id": "814f678f-76c2-4f91-adee-a9f38e6dd860",
+        "image": "images/pie_814f678f-76c2-4f91-adee-a9f38e6dd860.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.47058823704719543,
+            0.7352941036224365,
+            0.11764705926179886,
+            0.6176470518112183
+        ]
+    },
+    {
+        "id": "cd49867e-ac6c-4442-8c0c-1c9f822e8cc1",
+        "image": "images/pie_cd49867e-ac6c-4442-8c0c-1c9f822e8cc1.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3076923191547394,
+            0.5128205418586731,
+            0.6410256624221802,
+            0.10256410390138626
+        ]
+    },
+    {
+        "id": "10eb7151-f261-4059-9314-b427cefc2249",
+        "image": "images/pie_10eb7151-f261-4059-9314-b427cefc2249.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3947368562221527,
+            0.8684210777282715,
+            0.10526315867900848,
+            0.2631579041481018
+        ]
+    },
+    {
+        "id": "a48aea8f-cf0f-42b7-9b23-13352c742fd4",
+        "image": "images/pie_a48aea8f-cf0f-42b7-9b23-13352c742fd4.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4324324429035187,
+            0.1621621549129486,
+            0.7567567825317383,
+            0.3513513505458832
+        ]
+    },
+    {
+        "id": "cbc87d2f-4bfc-4447-9cce-da9c2ba3032c",
+        "image": "images/pie_cbc87d2f-4bfc-4447-9cce-da9c2ba3032c.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3076923191547394,
+            0.12820513546466827,
+            0.6666666865348816,
+            0.4615384638309479
+        ]
+    },
+    {
+        "id": "9debe0ea-8377-4e34-a917-12ce2b2061b2",
+        "image": "images/pie_9debe0ea-8377-4e34-a917-12ce2b2061b2.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3571428656578064,
+            0.5714285969734192,
+            0.75,
+            0.8928571343421936
+        ]
+    },
+    {
+        "id": "ffad35e9-d7db-44d5-b6c3-8fc7942265d0",
+        "image": "images/pie_ffad35e9-d7db-44d5-b6c3-8fc7942265d0.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6410256624221802,
+            0.12820513546466827,
+            0.43589743971824646,
+            0.3589743673801422
+        ]
+    },
+    {
+        "id": "4062a544-bafe-4af3-89f6-4f3d504985c0",
+        "image": "images/pie_4062a544-bafe-4af3-89f6-4f3d504985c0.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.2432432472705841,
+            0.1621621549129486,
+            0.7297297120094299,
+            0.5675675868988037
+        ]
+    },
+    {
+        "id": "fa155b26-7c2a-4450-922c-880915ab626d",
+        "image": "images/pie_fa155b26-7c2a-4450-922c-880915ab626d.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1875,
+            0.875,
+            0.625,
+            0.4375
+        ]
+    },
+    {
+        "id": "e1c7df19-94d5-497b-845d-ce368fdf692a",
+        "image": "images/pie_e1c7df19-94d5-497b-845d-ce368fdf692a.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.25641027092933655,
+            0.41025641560554504,
+            0.7948718070983887,
+            0.10256410390138626
+        ]
+    },
+    {
+        "id": "4ae3b309-a74f-4d9a-8567-b11a0e5dbcb3",
+        "image": "images/pie_4ae3b309-a74f-4d9a-8567-b11a0e5dbcb3.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3055555522441864,
+            0.8888888955116272,
+            0.4722222089767456,
+            0.1111111119389534
+        ]
+    },
+    {
+        "id": "573deb5a-b5b0-4080-86c6-e6bb807d4057",
+        "image": "images/pie_573deb5a-b5b0-4080-86c6-e6bb807d4057.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.14705882966518402,
+            0.6176470518112183,
+            0.7058823704719543,
+            0.47058823704719543
+        ]
+    },
+    {
+        "id": "39829a39-d960-4efa-91df-2778baf507f9",
+        "image": "images/pie_39829a39-d960-4efa-91df-2778baf507f9.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7575757503509521,
+            0.6363636255264282,
+            0.12121212482452393,
+            0.5151515007019043
+        ]
+    },
+    {
+        "id": "080691ac-b488-4d7f-85bd-cbd7f3af1152",
+        "image": "images/pie_080691ac-b488-4d7f-85bd-cbd7f3af1152.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5135135054588318,
+            0.4054054021835327,
+            0.5945945978164673,
+            0.18918919563293457
+        ]
+    },
+    {
+        "id": "2c5893d8-532e-48d2-b5ae-61a2230ba87f",
+        "image": "images/pie_2c5893d8-532e-48d2-b5ae-61a2230ba87f.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3055555522441864,
+            0.5833333134651184,
+            0.7222222089767456,
+            0.1666666716337204
+        ]
+    },
+    {
+        "id": "9892d20f-e960-4f3a-8626-48c770da2d45",
+        "image": "images/pie_9892d20f-e960-4f3a-8626-48c770da2d45.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8918918967247009,
+            0.2702702581882477,
+            0.37837839126586914,
+            0.1621621549129486
+        ]
+    },
+    {
+        "id": "43348e40-1537-4f41-b7a1-1609990e78d6",
+        "image": "images/pie_43348e40-1537-4f41-b7a1-1609990e78d6.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.10810811072587967,
+            0.37837839126586914,
+            0.7027027010917664,
+            0.5135135054588318
+        ]
+    },
+    {
+        "id": "92d66f2c-ecda-492c-a9e0-d43ae1af63e0",
+        "image": "images/pie_92d66f2c-ecda-492c-a9e0-d43ae1af63e0.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5142857432365417,
+            0.7142857313156128,
+            0.4285714328289032,
+            0.20000000298023224
+        ]
+    },
+    {
+        "id": "a61d4a21-11fe-4b68-b9a6-ed506bb79c1e",
+        "image": "images/pie_a61d4a21-11fe-4b68-b9a6-ed506bb79c1e.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8181818127632141,
+            0.4848484992980957,
+            0.12121212482452393,
+            0.6060606241226196
+        ]
+    },
+    {
+        "id": "0983e33c-b3c9-4c18-bc32-dcdbf1da6793",
+        "image": "images/pie_0983e33c-b3c9-4c18-bc32-dcdbf1da6793.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7647058963775635,
+            0.44117647409439087,
+            0.5882353186607361,
+            0.14705882966518402
+        ]
+    },
+    {
+        "id": "61e75608-71cd-4e5e-b697-4c6348455016",
+        "image": "images/pie_61e75608-71cd-4e5e-b697-4c6348455016.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.800000011920929,
+            0.8999999761581421,
+            0.46666666865348816,
+            0.1666666716337204
+        ]
+    },
+    {
+        "id": "8288302a-cddc-4e31-9396-0cd7363c88fb",
+        "image": "images/pie_8288302a-cddc-4e31-9396-0cd7363c88fb.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5625,
+            0.46875,
+            0.84375,
+            0.25
+        ]
+    },
+    {
+        "id": "bd879e81-704b-4c3b-b421-1d288202d966",
+        "image": "images/pie_bd879e81-704b-4c3b-b421-1d288202d966.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3529411852359772,
+            0.5,
+            0.23529411852359772,
+            0.8529411554336548
+        ]
+    },
+    {
+        "id": "13b1937c-9a02-49d7-a449-83ee0b2dc35e",
+        "image": "images/pie_13b1937c-9a02-49d7-a449-83ee0b2dc35e.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1315789520740509,
+            0.44736841320991516,
+            0.8157894611358643,
+            0.2368421107530594
+        ]
+    },
+    {
+        "id": "281ac8e6-3b56-4b8e-91e4-807decdba881",
+        "image": "images/pie_281ac8e6-3b56-4b8e-91e4-807decdba881.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6666666865348816,
+            0.5277777910232544,
+            0.3333333432674408,
+            0.25
+        ]
+    },
+    {
+        "id": "e9035843-c792-4de1-8637-b6b1c6d49d66",
+        "image": "images/pie_e9035843-c792-4de1-8637-b6b1c6d49d66.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6470588445663452,
+            0.3529411852359772,
+            0.7941176295280457,
+            0.14705882966518402
+        ]
+    },
+    {
+        "id": "436a34c4-4704-4ab7-b9d4-352858a0e5ac",
+        "image": "images/pie_436a34c4-4704-4ab7-b9d4-352858a0e5ac.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.42424243688583374,
+            0.27272728085517883,
+            0.5757575631141663,
+            0.7575757503509521
+        ]
+    },
+    {
+        "id": "a287fc56-ceef-4d20-bb31-be2cfc79921b",
+        "image": "images/pie_a287fc56-ceef-4d20-bb31-be2cfc79921b.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.18918919563293457,
+            0.5405405163764954,
+            0.2702702581882477,
+            0.7027027010917664
+        ]
+    },
+    {
+        "id": "da36be8a-a3b8-4339-95bb-1985d567c1cc",
+        "image": "images/pie_da36be8a-a3b8-4339-95bb-1985d567c1cc.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.23076923191547394,
+            0.12820513546466827,
+            0.7435897588729858,
+            0.4615384638309479
+        ]
+    },
+    {
+        "id": "8c810c03-dffe-4076-9cce-e551870cb29d",
+        "image": "images/pie_8c810c03-dffe-4076-9cce-e551870cb29d.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1315789520740509,
+            0.6842105388641357,
+            0.5789473652839661,
+            0.2368421107530594
+        ]
+    },
+    {
+        "id": "abbac432-09ee-4855-8fc1-2e47277871d0",
+        "image": "images/pie_abbac432-09ee-4855-8fc1-2e47277871d0.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.12903225421905518,
+            0.8064516186714172,
+            0.7096773982048035,
+            0.5806451439857483
+        ]
+    },
+    {
+        "id": "ba5a0ba1-d8cf-4b8f-857b-bbcb8a4c4dcb",
+        "image": "images/pie_ba5a0ba1-d8cf-4b8f-857b-bbcb8a4c4dcb.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.2142857164144516,
+            0.8928571343421936,
+            0.6785714030265808,
+            0.7857142686843872
+        ]
+    },
+    {
+        "id": "cde609d7-2d6d-4df6-a4d1-b8f9ad148a04",
+        "image": "images/pie_cde609d7-2d6d-4df6-a4d1-b8f9ad148a04.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5757575631141663,
+            0.39393940567970276,
+            0.3030303120613098,
+            0.7575757503509521
+        ]
+    },
+    {
+        "id": "ba7e662e-8cfd-4046-90e4-73d3cade195a",
+        "image": "images/pie_ba7e662e-8cfd-4046-90e4-73d3cade195a.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.18421052396297455,
+            0.4736842215061188,
+            0.6315789222717285,
+            0.34210526943206787
+        ]
+    },
+    {
+        "id": "c5b81b18-9967-49fc-8b74-3f066e84f94a",
+        "image": "images/pie_c5b81b18-9967-49fc-8b74-3f066e84f94a.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.25,
+            0.3333333432674408,
+            0.4722222089767456,
+            0.7222222089767456
+        ]
+    },
+    {
+        "id": "9ffd3f51-3cbc-45e8-8ee9-2ee675ddd9b1",
+        "image": "images/pie_9ffd3f51-3cbc-45e8-8ee9-2ee675ddd9b1.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3055555522441864,
+            0.5277777910232544,
+            0.1666666716337204,
+            0.7777777910232544
+        ]
+    },
+    {
+        "id": "73fac6a9-f5fa-4b69-82ae-f663e50d4a5a",
+        "image": "images/pie_73fac6a9-f5fa-4b69-82ae-f663e50d4a5a.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4545454680919647,
+            0.6060606241226196,
+            0.21212121844291687,
+            0.7575757503509521
+        ]
+    },
+    {
+        "id": "aa18facb-900d-4f1e-a1f3-e685368e47b2",
+        "image": "images/pie_aa18facb-900d-4f1e-a1f3-e685368e47b2.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4054054021835327,
+            0.3243243098258972,
+            0.7567567825317383,
+            0.21621622145175934
+        ]
+    },
+    {
+        "id": "f7d8d77e-b6b0-4e0f-bc47-ee88b7ecfe48",
+        "image": "images/pie_f7d8d77e-b6b0-4e0f-bc47-ee88b7ecfe48.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7096773982048035,
+            0.4193548262119293,
+            0.25806450843811035,
+            0.8387096524238586
+        ]
+    },
+    {
+        "id": "72a34b66-5963-4fcd-937b-c90a224462d4",
+        "image": "images/pie_72a34b66-5963-4fcd-937b-c90a224462d4.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.39393940567970276,
+            0.8484848737716675,
+            0.3030303120613098,
+            0.4848484992980957
+        ]
+    },
+    {
+        "id": "55f68aea-91c6-43ab-ab20-f2d2de8aad9a",
+        "image": "images/pie_55f68aea-91c6-43ab-ab20-f2d2de8aad9a.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6052631735801697,
+            0.34210526943206787,
+            0.44736841320991516,
+            0.2368421107530594
+        ]
+    },
+    {
+        "id": "cb3e07c4-0059-44b8-aeaf-4afdd7c67c3b",
+        "image": "images/pie_cb3e07c4-0059-44b8-aeaf-4afdd7c67c3b.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5142857432365417,
+            0.20000000298023224,
+            0.800000011920929,
+            0.34285715222358704
+        ]
+    },
+    {
+        "id": "318a660c-b3ad-43fa-8e7c-ca66af40ad7c",
+        "image": "images/pie_318a660c-b3ad-43fa-8e7c-ca66af40ad7c.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.10810811072587967,
+            0.8648648858070374,
+            0.2432432472705841,
+            0.4864864945411682
+        ]
+    },
+    {
+        "id": "5b759b56-5dbd-41c9-a61f-2560e3b62196",
+        "image": "images/pie_5b759b56-5dbd-41c9-a61f-2560e3b62196.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3888888955116272,
+            0.2222222238779068,
+            0.4722222089767456,
+            0.6944444179534912
+        ]
+    },
+    {
+        "id": "2d0b3dba-32d8-4cc5-8f7f-9b9d90c90dea",
+        "image": "images/pie_2d0b3dba-32d8-4cc5-8f7f-9b9d90c90dea.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3888888955116272,
+            0.25,
+            0.5,
+            0.6388888955116272
+        ]
+    },
+    {
+        "id": "deb72a61-b677-4039-86be-c57468199cfa",
+        "image": "images/pie_deb72a61-b677-4039-86be-c57468199cfa.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4571428596973419,
+            0.22857142984867096,
+            0.34285715222358704,
+            0.8285714387893677
+        ]
+    },
+    {
+        "id": "a205e11e-885e-45dd-9cce-380639ff61f8",
+        "image": "images/pie_a205e11e-885e-45dd-9cce-380639ff61f8.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8684210777282715,
+            0.1315789520740509,
+            0.42105263471603394,
+            0.21052631735801697
+        ]
+    },
+    {
+        "id": "8d282f58-7cce-4246-92ca-d9f2d24220b6",
+        "image": "images/pie_8d282f58-7cce-4246-92ca-d9f2d24220b6.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6363636255264282,
+            0.21212121844291687,
+            0.7575757503509521,
+            0.42424243688583374
+        ]
+    },
+    {
+        "id": "b9ba800e-3bfb-4af7-8746-9d141ee472c9",
+        "image": "images/pie_b9ba800e-3bfb-4af7-8746-9d141ee472c9.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1621621549129486,
+            0.3513513505458832,
+            0.7297297120094299,
+            0.45945945382118225
+        ]
+    },
+    {
+        "id": "222bbffc-f5e6-48a0-86dd-33ae9d82aa9c",
+        "image": "images/pie_222bbffc-f5e6-48a0-86dd-33ae9d82aa9c.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.18918919563293457,
+            0.45945945382118225,
+            0.7837837934494019,
+            0.2702702581882477
+        ]
+    },
+    {
+        "id": "f7c0f305-b24e-4bfa-b791-d9733d94fd27",
+        "image": "images/pie_f7c0f305-b24e-4bfa-b791-d9733d94fd27.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.17142857611179352,
+            0.2571428716182709,
+            0.5428571701049805,
+            0.8857142925262451
+        ]
+    },
+    {
+        "id": "e9c400b3-4b23-439f-8f43-fe9d369dc586",
+        "image": "images/pie_e9c400b3-4b23-439f-8f43-fe9d369dc586.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7096773982048035,
+            0.5161290168762207,
+            0.6129032373428345,
+            0.3870967626571655
+        ]
+    },
+    {
+        "id": "eea430fb-0854-49e9-8b32-9d2c7d3ccbac",
+        "image": "images/pie_eea430fb-0854-49e9-8b32-9d2c7d3ccbac.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.37837839126586914,
+            0.7027027010917664,
+            0.45945945382118225,
+            0.1621621549129486
+        ]
+    },
+    {
+        "id": "fb33ade6-5bda-48f5-bec0-419629b31277",
+        "image": "images/pie_fb33ade6-5bda-48f5-bec0-419629b31277.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6896551847457886,
+            0.4137931168079376,
+            0.8275862336158752,
+            0.517241358757019
+        ]
+    },
+    {
+        "id": "1a00b161-dab4-4294-9384-c4dc0e549d3c",
+        "image": "images/pie_1a00b161-dab4-4294-9384-c4dc0e549d3c.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5333333611488342,
+            0.699999988079071,
+            0.8333333134651184,
+            0.2666666805744171
+        ]
+    },
+    {
+        "id": "5e6b3f61-8e5f-4120-b72b-a8807a31952a",
+        "image": "images/pie_5e6b3f61-8e5f-4120-b72b-a8807a31952a.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6388888955116272,
+            0.1666666716337204,
+            0.25,
+            0.7222222089767456
+        ]
+    },
+    {
+        "id": "f0d79450-c905-47da-bf74-f3c430c43fbb",
+        "image": "images/pie_f0d79450-c905-47da-bf74-f3c430c43fbb.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8064516186714172,
+            0.4838709533214569,
+            0.6129032373428345,
+            0.32258063554763794
+        ]
+    },
+    {
+        "id": "b69224ae-8970-49c7-bb74-ad842af58cc8",
+        "image": "images/pie_b69224ae-8970-49c7-bb74-ad842af58cc8.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.38235294818878174,
+            0.29411765933036804,
+            0.7941176295280457,
+            0.47058823704719543
+        ]
+    },
+    {
+        "id": "1a2d6727-46d5-4c67-8e7b-4904fd50c0fc",
+        "image": "images/pie_1a2d6727-46d5-4c67-8e7b-4904fd50c0fc.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3529411852359772,
+            0.7941176295280457,
+            0.2647058963775635,
+            0.529411792755127
+        ]
+    },
+    {
+        "id": "9fcf9872-b751-4f6a-b130-74f488348b0e",
+        "image": "images/pie_9fcf9872-b751-4f6a-b130-74f488348b0e.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.699999988079071,
+            0.6000000238418579,
+            0.1666666716337204,
+            0.8666666746139526
+        ]
+    },
+    {
+        "id": "8916b17c-7c24-4168-a7a2-5b3e7e4f49c3",
+        "image": "images/pie_8916b17c-7c24-4168-a7a2-5b3e7e4f49c3.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.12903225421905518,
+            0.9032257795333862,
+            0.7096773982048035,
+            0.4838709533214569
+        ]
+    },
+    {
+        "id": "56e9372c-f884-4129-8d7d-a10eeb9c8c5d",
+        "image": "images/pie_56e9372c-f884-4129-8d7d-a10eeb9c8c5d.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5588235259056091,
+            0.4117647111415863,
+            0.7352941036224365,
+            0.23529411852359772
+        ]
+    },
+    {
+        "id": "20d34d6a-d086-4a38-84e0-d4b3e420aa43",
+        "image": "images/pie_20d34d6a-d086-4a38-84e0-d4b3e420aa43.jpg",
+        "task": "pie",
+        "question": "The pie chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the pie chart again. Identify the largest segment, which is marked with a dot. Go counterclockwise around the pie starting from the largest segment, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3333333432674408,
+            0.43589743971824646,
+            0.25641027092933655,
+            0.5384615659713745
+        ]
+    },
+    {
+        "id": "859661d3-7169-44a4-ab37-1c2b27d87cf3",
+        "image": "images/bar_859661d3-7169-44a4-ab37-1c2b27d87cf3.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6857143044471741,
+            0.2857142984867096,
+            0.48571428656578064,
+            0.4000000059604645
+        ]
+    },
+    {
+        "id": "87cc02f2-b352-4937-8846-3c283f3aa33d",
+        "image": "images/bar_87cc02f2-b352-4937-8846-3c283f3aa33d.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.22857142984867096,
+            0.9142857193946838,
+            0.5714285969734192,
+            0.1428571492433548
+        ]
+    },
+    {
+        "id": "0df06133-e948-4295-b104-50a23c893593",
+        "image": "images/bar_0df06133-e948-4295-b104-50a23c893593.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6285714507102966,
+            0.11428571492433548,
+            0.9142857193946838,
+            0.20000000298023224
+        ]
+    },
+    {
+        "id": "75e9e69c-928b-475e-85e8-fe3b416087bf",
+        "image": "images/bar_75e9e69c-928b-475e-85e8-fe3b416087bf.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4000000059604645,
+            0.800000011920929,
+            0.5428571701049805,
+            0.11428571492433548
+        ]
+    },
+    {
+        "id": "606f30cc-84d5-4983-a566-af58cce321d7",
+        "image": "images/bar_606f30cc-84d5-4983-a566-af58cce321d7.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.53125,
+            0.21875,
+            0.75,
+            0.625
+        ]
+    },
+    {
+        "id": "c527ab05-7342-4245-83ce-777ec4e81689",
+        "image": "images/bar_c527ab05-7342-4245-83ce-777ec4e81689.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1764705926179886,
+            0.5882353186607361,
+            0.9117646813392639,
+            0.2647058963775635
+        ]
+    },
+    {
+        "id": "239bc06c-c1e3-41c4-b422-0c57110515d9",
+        "image": "images/bar_239bc06c-c1e3-41c4-b422-0c57110515d9.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.29729729890823364,
+            0.18918919563293457,
+            0.37837839126586914,
+            0.837837815284729
+        ]
+    },
+    {
+        "id": "e7cdd6b2-2ffb-441e-a277-0dbb209815f8",
+        "image": "images/bar_e7cdd6b2-2ffb-441e-a277-0dbb209815f8.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.36666667461395264,
+            0.46666666865348816,
+            0.8999999761581421,
+            0.6000000238418579
+        ]
+    },
+    {
+        "id": "64c66f97-bea6-490f-b672-4755caff4803",
+        "image": "images/bar_64c66f97-bea6-490f-b672-4755caff4803.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8285714387893677,
+            0.3142857253551483,
+            0.6000000238418579,
+            0.11428571492433548
+        ]
+    },
+    {
+        "id": "bb24e60f-3a59-439d-b5c5-4d56c220e8c1",
+        "image": "images/bar_bb24e60f-3a59-439d-b5c5-4d56c220e8c1.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.18421052396297455,
+            0.5789473652839661,
+            0.3947368562221527,
+            0.4736842215061188
+        ]
+    },
+    {
+        "id": "367b746f-41ed-4186-8d38-d8377210e437",
+        "image": "images/bar_367b746f-41ed-4186-8d38-d8377210e437.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5806451439857483,
+            0.3870967626571655,
+            0.774193525314331,
+            0.4838709533214569
+        ]
+    },
+    {
+        "id": "217993ec-7e95-4c57-b831-482ff715e79c",
+        "image": "images/bar_217993ec-7e95-4c57-b831-482ff715e79c.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5483871102333069,
+            0.35483869910240173,
+            0.8709677457809448,
+            0.4516128897666931
+        ]
+    },
+    {
+        "id": "15353949-e1c0-4107-adfa-b5e26685a1ae",
+        "image": "images/bar_15353949-e1c0-4107-adfa-b5e26685a1ae.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.12820513546466827,
+            0.43589743971824646,
+            0.3333333432674408,
+            0.6666666865348816
+        ]
+    },
+    {
+        "id": "5341b6ed-27c3-44d2-984b-2384495a2a3d",
+        "image": "images/bar_5341b6ed-27c3-44d2-984b-2384495a2a3d.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5,
+            0.7777777910232544,
+            0.1666666716337204,
+            0.3333333432674408
+        ]
+    },
+    {
+        "id": "94e5f35e-ea52-474d-9c0c-90049415b710",
+        "image": "images/bar_94e5f35e-ea52-474d-9c0c-90049415b710.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.529411792755127,
+            0.2647058963775635,
+            0.3529411852359772,
+            0.7941176295280457
+        ]
+    },
+    {
+        "id": "40e9a663-e259-4d45-b098-93b7bae14e98",
+        "image": "images/bar_40e9a663-e259-4d45-b098-93b7bae14e98.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8235294222831726,
+            0.6176470518112183,
+            0.1764705926179886,
+            0.3235294222831726
+        ]
+    },
+    {
+        "id": "27f3197b-5486-4ca7-bc84-fad059231363",
+        "image": "images/bar_27f3197b-5486-4ca7-bc84-fad059231363.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.37142857909202576,
+            0.22857142984867096,
+            0.6857143044471741,
+            0.5714285969734192
+        ]
+    },
+    {
+        "id": "f5ed777a-a21d-447d-8676-967c99725951",
+        "image": "images/bar_f5ed777a-a21d-447d-8676-967c99725951.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.18918919563293457,
+            0.5135135054588318,
+            0.2702702581882477,
+            0.7297297120094299
+        ]
+    },
+    {
+        "id": "021d1729-d026-45c8-a941-8979162abfc9",
+        "image": "images/bar_021d1729-d026-45c8-a941-8979162abfc9.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5142857432365417,
+            0.2571428716182709,
+            0.34285715222358704,
+            0.7428571581840515
+        ]
+    },
+    {
+        "id": "14ff6248-e96c-4db3-8c79-a50688c460cd",
+        "image": "images/bar_14ff6248-e96c-4db3-8c79-a50688c460cd.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.31578946113586426,
+            0.7105262875556946,
+            0.15789473056793213,
+            0.44736841320991516
+        ]
+    },
+    {
+        "id": "3be722b6-3dba-4b7d-ad7f-7f9f192666b5",
+        "image": "images/bar_3be722b6-3dba-4b7d-ad7f-7f9f192666b5.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1764705926179886,
+            0.29411765933036804,
+            0.9117646813392639,
+            0.5588235259056091
+        ]
+    },
+    {
+        "id": "e35a80b4-a336-4a70-b194-b5b420a29843",
+        "image": "images/bar_e35a80b4-a336-4a70-b194-b5b420a29843.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8999999761581421,
+            0.2666666805744171,
+            0.46666666865348816,
+            0.699999988079071
+        ]
+    },
+    {
+        "id": "6fab9580-4b4c-45ae-bc77-13ba1cea2004",
+        "image": "images/bar_6fab9580-4b4c-45ae-bc77-13ba1cea2004.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.21875,
+            0.625,
+            0.75,
+            0.53125
+        ]
+    },
+    {
+        "id": "24a2b53a-d7ad-462b-8ddd-ed62efb0c3b2",
+        "image": "images/bar_24a2b53a-d7ad-462b-8ddd-ed62efb0c3b2.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.699999988079071,
+            0.20000000298023224,
+            0.8333333134651184,
+            0.6000000238418579
+        ]
+    },
+    {
+        "id": "2e3d8d88-f7f8-4f98-9f30-33540d553228",
+        "image": "images/bar_2e3d8d88-f7f8-4f98-9f30-33540d553228.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7666666507720947,
+            0.8666666746139526,
+            0.5333333611488342,
+            0.1666666716337204
+        ]
+    },
+    {
+        "id": "5f569dd8-aeab-48a2-a9c9-72f7a55a5f7e",
+        "image": "images/bar_5f569dd8-aeab-48a2-a9c9-72f7a55a5f7e.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8235294222831726,
+            0.529411792755127,
+            0.14705882966518402,
+            0.44117647409439087
+        ]
+    },
+    {
+        "id": "bbbf029b-b59d-4d03-8d42-508f32367e8a",
+        "image": "images/bar_bbbf029b-b59d-4d03-8d42-508f32367e8a.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.21052631735801697,
+            0.31578946113586426,
+            0.42105263471603394,
+            0.6842105388641357
+        ]
+    },
+    {
+        "id": "bc86369b-41b9-43f0-b9a4-7513a1a5fea2",
+        "image": "images/bar_bc86369b-41b9-43f0-b9a4-7513a1a5fea2.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4000000059604645,
+            0.1428571492433548,
+            0.7428571581840515,
+            0.5714285969734192
+        ]
+    },
+    {
+        "id": "608a436e-777a-4249-9c5a-a6c691b00f3f",
+        "image": "images/bar_608a436e-777a-4249-9c5a-a6c691b00f3f.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.517241358757019,
+            0.8620689511299133,
+            0.3103448152542114,
+            0.7586206793785095
+        ]
+    },
+    {
+        "id": "d783a2b1-a14e-43cb-b4e0-84fee1383cd0",
+        "image": "images/bar_d783a2b1-a14e-43cb-b4e0-84fee1383cd0.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8571428656578064,
+            0.4571428596973419,
+            0.17142857611179352,
+            0.37142857909202576
+        ]
+    },
+    {
+        "id": "c569afc0-7055-45b9-873e-354f0646391a",
+        "image": "images/bar_c569afc0-7055-45b9-873e-354f0646391a.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.43589743971824646,
+            0.7435897588729858,
+            0.23076923191547394,
+            0.1538461595773697
+        ]
+    },
+    {
+        "id": "a4d2c9d3-0f4e-4714-8c5b-252c36387208",
+        "image": "images/bar_a4d2c9d3-0f4e-4714-8c5b-252c36387208.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.10526315867900848,
+            0.6842105388641357,
+            0.5263158082962036,
+            0.31578946113586426
+        ]
+    },
+    {
+        "id": "0146ac76-94e5-4e06-b057-ccdaf68a5513",
+        "image": "images/bar_0146ac76-94e5-4e06-b057-ccdaf68a5513.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.12121212482452393,
+            0.7878788113594055,
+            0.6666666865348816,
+            0.4545454680919647
+        ]
+    },
+    {
+        "id": "3cd65873-ea72-4ffd-9751-0794e93dee40",
+        "image": "images/bar_3cd65873-ea72-4ffd-9751-0794e93dee40.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1538461595773697,
+            0.7179487347602844,
+            0.3076923191547394,
+            0.38461539149284363
+        ]
+    },
+    {
+        "id": "ef4e3cbe-3fa2-44f6-b0e3-3e519b1b8972",
+        "image": "images/bar_ef4e3cbe-3fa2-44f6-b0e3-3e519b1b8972.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7931034564971924,
+            0.8965517282485962,
+            0.5862069129943848,
+            0.17241379618644714
+        ]
+    },
+    {
+        "id": "c3571d3c-11a4-4e6d-ad97-8b2e4c59ed5a",
+        "image": "images/bar_c3571d3c-11a4-4e6d-ad97-8b2e4c59ed5a.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7096773982048035,
+            0.5806451439857483,
+            0.12903225421905518,
+            0.8064516186714172
+        ]
+    },
+    {
+        "id": "72add9ff-260e-445f-8d66-2b7774f797e9",
+        "image": "images/bar_72add9ff-260e-445f-8d66-2b7774f797e9.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5,
+            0.3055555522441864,
+            0.2222222238779068,
+            0.75
+        ]
+    },
+    {
+        "id": "d832ede3-9272-408a-b220-ab6fa67963f6",
+        "image": "images/bar_d832ede3-9272-408a-b220-ab6fa67963f6.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.2857142984867096,
+            0.5714285969734192,
+            0.17142857611179352,
+            0.8285714387893677
+        ]
+    },
+    {
+        "id": "93f613f3-d93e-4756-889b-b5636abb995b",
+        "image": "images/bar_93f613f3-d93e-4756-889b-b5636abb995b.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4838709533214569,
+            0.6774193644523621,
+            0.29032257199287415,
+            0.774193525314331
+        ]
+    },
+    {
+        "id": "cc1facc7-5dbc-4c4c-9996-755b92426e21",
+        "image": "images/bar_cc1facc7-5dbc-4c4c-9996-755b92426e21.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.29032257199287415,
+            0.8064516186714172,
+            0.7096773982048035,
+            0.4193548262119293
+        ]
+    },
+    {
+        "id": "2fe31a0f-4d53-497e-894a-42d360d5e1af",
+        "image": "images/bar_2fe31a0f-4d53-497e-894a-42d360d5e1af.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5789473652839661,
+            0.31578946113586426,
+            0.2368421107530594,
+            0.5
+        ]
+    },
+    {
+        "id": "2ebd8f96-f74b-4224-8a7e-512281799c8e",
+        "image": "images/bar_2ebd8f96-f74b-4224-8a7e-512281799c8e.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3333333432674408,
+            0.1515151560306549,
+            0.7272727489471436,
+            0.8181818127632141
+        ]
+    },
+    {
+        "id": "f2b92e21-2292-4689-8f6b-ea569bd211a2",
+        "image": "images/bar_f2b92e21-2292-4689-8f6b-ea569bd211a2.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4571428596973419,
+            0.8571428656578064,
+            0.17142857611179352,
+            0.37142857909202576
+        ]
+    },
+    {
+        "id": "e334acda-7c37-410a-b514-8953545c9256",
+        "image": "images/bar_e334acda-7c37-410a-b514-8953545c9256.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8965517282485962,
+            0.6206896305084229,
+            0.7931034564971924,
+            0.13793103396892548
+        ]
+    },
+    {
+        "id": "47023523-6c3e-47e6-abfd-e82c6a7cfbe5",
+        "image": "images/bar_47023523-6c3e-47e6-abfd-e82c6a7cfbe5.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.29411765933036804,
+            0.6764705777168274,
+            0.529411792755127,
+            0.44117647409439087
+        ]
+    },
+    {
+        "id": "42bae786-4843-490f-a7c1-55c5a606b7fb",
+        "image": "images/bar_42bae786-4843-490f-a7c1-55c5a606b7fb.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6857143044471741,
+            0.37142857909202576,
+            0.2571428716182709,
+            0.5428571701049805
+        ]
+    },
+    {
+        "id": "16e16fb5-bef2-4fad-a32f-2a1b1073e267",
+        "image": "images/bar_16e16fb5-bef2-4fad-a32f-2a1b1073e267.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7142857313156128,
+            0.8214285969734192,
+            0.4285714328289032,
+            0.6071428656578064
+        ]
+    },
+    {
+        "id": "1d6517d5-bf62-4dc4-acac-41685f5751a3",
+        "image": "images/bar_1d6517d5-bf62-4dc4-acac-41685f5751a3.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5,
+            0.8999999761581421,
+            0.699999988079071,
+            0.23333333432674408
+        ]
+    },
+    {
+        "id": "d4728e35-d126-473e-b8c4-285280b74f47",
+        "image": "images/bar_d4728e35-d126-473e-b8c4-285280b74f47.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5142857432365417,
+            0.6285714507102966,
+            0.4285714328289032,
+            0.2857142984867096
+        ]
+    },
+    {
+        "id": "5b78201e-41ba-422c-8ef1-cf9bb9614959",
+        "image": "images/bar_5b78201e-41ba-422c-8ef1-cf9bb9614959.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.45945945382118225,
+            0.7837837934494019,
+            0.29729729890823364,
+            0.1621621549129486
+        ]
+    },
+    {
+        "id": "30c09e53-d0e0-4324-ae97-9c6e5d49e630",
+        "image": "images/bar_30c09e53-d0e0-4324-ae97-9c6e5d49e630.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6129032373428345,
+            0.29032257199287415,
+            0.8064516186714172,
+            0.5161290168762207
+        ]
+    },
+    {
+        "id": "2f9aa095-093e-4183-8955-6db6b059498e",
+        "image": "images/bar_2f9aa095-093e-4183-8955-6db6b059498e.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.10526315867900848,
+            0.4736842215061188,
+            0.2631579041481018,
+            0.7894737124443054
+        ]
+    },
+    {
+        "id": "c7c4d69f-8d83-4547-ba05-d1d12f09413f",
+        "image": "images/bar_c7c4d69f-8d83-4547-ba05-d1d12f09413f.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1794871836900711,
+            0.4871794879436493,
+            0.25641027092933655,
+            0.6410256624221802
+        ]
+    },
+    {
+        "id": "14b27c1a-db76-47f9-8468-666084e99b7b",
+        "image": "images/bar_14b27c1a-db76-47f9-8468-666084e99b7b.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5675675868988037,
+            0.4054054021835327,
+            0.2432432472705841,
+            0.4864864945411682
+        ]
+    },
+    {
+        "id": "df60f54a-29f0-4f04-9e8a-3c59c9572996",
+        "image": "images/bar_df60f54a-29f0-4f04-9e8a-3c59c9572996.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.21621622145175934,
+            0.8108108043670654,
+            0.5405405163764954,
+            0.13513512909412384
+        ]
+    },
+    {
+        "id": "5246b4e4-ac2f-4cae-a992-cda8661cc689",
+        "image": "images/bar_5246b4e4-ac2f-4cae-a992-cda8661cc689.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.28947368264198303,
+            0.8684210777282715,
+            0.10526315867900848,
+            0.3684210479259491
+        ]
+    },
+    {
+        "id": "3870e294-ee83-4c96-a2c5-3276d3f11cb7",
+        "image": "images/bar_3870e294-ee83-4c96-a2c5-3276d3f11cb7.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.9142857193946838,
+            0.22857142984867096,
+            0.1428571492433548,
+            0.5714285969734192
+        ]
+    },
+    {
+        "id": "3b7eddfa-dd05-4566-b07d-a6d9cf702a0d",
+        "image": "images/bar_3b7eddfa-dd05-4566-b07d-a6d9cf702a0d.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8857142925262451,
+            0.17142857611179352,
+            0.3142857253551483,
+            0.48571428656578064
+        ]
+    },
+    {
+        "id": "a5c6270a-d963-4d17-8e06-ba8aa42b189c",
+        "image": "images/bar_a5c6270a-d963-4d17-8e06-ba8aa42b189c.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.2777777910232544,
+            0.75,
+            0.5833333134651184,
+            0.1666666716337204
+        ]
+    },
+    {
+        "id": "41b1a284-b363-4c3c-8132-90af72373b3c",
+        "image": "images/bar_41b1a284-b363-4c3c-8132-90af72373b3c.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.12820513546466827,
+            0.41025641560554504,
+            0.23076923191547394,
+            0.7948718070983887
+        ]
+    },
+    {
+        "id": "616b47f8-656b-45fa-b860-647b2b3ebc68",
+        "image": "images/bar_616b47f8-656b-45fa-b860-647b2b3ebc68.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1621621549129486,
+            0.29729729890823364,
+            0.5405405163764954,
+            0.7027027010917664
+        ]
+    },
+    {
+        "id": "f6683b4e-3778-44a8-b184-634f379e2eff",
+        "image": "images/bar_f6683b4e-3778-44a8-b184-634f379e2eff.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7272727489471436,
+            0.27272728085517883,
+            0.42424243688583374,
+            0.6060606241226196
+        ]
+    },
+    {
+        "id": "087e111d-83bb-4ff5-ae57-4d829b0d89a0",
+        "image": "images/bar_087e111d-83bb-4ff5-ae57-4d829b0d89a0.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6071428656578064,
+            0.8571428656578064,
+            0.7142857313156128,
+            0.3928571343421936
+        ]
+    },
+    {
+        "id": "90686269-8bc1-4424-b758-7aec801e8e6e",
+        "image": "images/bar_90686269-8bc1-4424-b758-7aec801e8e6e.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3125,
+            0.4375,
+            0.53125,
+            0.84375
+        ]
+    },
+    {
+        "id": "5badc471-8516-498d-98d6-cada4edcc361",
+        "image": "images/bar_5badc471-8516-498d-98d6-cada4edcc361.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.14705882966518402,
+            0.7647058963775635,
+            0.5588235259056091,
+            0.47058823704719543
+        ]
+    },
+    {
+        "id": "bbc7605e-07b2-4df5-8989-849c235ea7b7",
+        "image": "images/bar_bbc7605e-07b2-4df5-8989-849c235ea7b7.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6944444179534912,
+            0.1944444477558136,
+            0.3055555522441864,
+            0.5833333134651184
+        ]
+    },
+    {
+        "id": "6acd9276-ce9c-4672-b297-b3a5b7a13504",
+        "image": "images/bar_6acd9276-ce9c-4672-b297-b3a5b7a13504.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.34285715222358704,
+            0.800000011920929,
+            0.1428571492433548,
+            0.5714285969734192
+        ]
+    },
+    {
+        "id": "84202c07-36f6-457c-99b5-2f76e6c7b97a",
+        "image": "images/bar_84202c07-36f6-457c-99b5-2f76e6c7b97a.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.42424243688583374,
+            0.5757575631141663,
+            0.8787878751754761,
+            0.1515151560306549
+        ]
+    },
+    {
+        "id": "74d5ddfb-ce8c-4b08-9bb7-0c2969c6086a",
+        "image": "images/bar_74d5ddfb-ce8c-4b08-9bb7-0c2969c6086a.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.42424243688583374,
+            0.1818181872367859,
+            0.6060606241226196,
+            0.8181818127632141
+        ]
+    },
+    {
+        "id": "67965c97-a61c-4fe6-afdf-92516f37cb62",
+        "image": "images/bar_67965c97-a61c-4fe6-afdf-92516f37cb62.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.125,
+            0.5,
+            0.875,
+            0.625
+        ]
+    },
+    {
+        "id": "33c3355c-c426-462c-88ba-e5c07a7e2480",
+        "image": "images/bar_33c3355c-c426-462c-88ba-e5c07a7e2480.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.10526315867900848,
+            0.8157894611358643,
+            0.4736842215061188,
+            0.2368421107530594
+        ]
+    },
+    {
+        "id": "c1959252-9f08-4d5d-a9cb-8c80913768f7",
+        "image": "images/bar_c1959252-9f08-4d5d-a9cb-8c80913768f7.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.11428571492433548,
+            0.7142857313156128,
+            0.22857142984867096,
+            0.800000011920929
+        ]
+    },
+    {
+        "id": "0de41f3f-4ca8-45c4-a8a7-f6302b50ade7",
+        "image": "images/bar_0de41f3f-4ca8-45c4-a8a7-f6302b50ade7.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8684210777282715,
+            0.3947368562221527,
+            0.1315789520740509,
+            0.2368421107530594
+        ]
+    },
+    {
+        "id": "37719b26-8b34-4891-bf09-e1f10251cd64",
+        "image": "images/bar_37719b26-8b34-4891-bf09-e1f10251cd64.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6470588445663452,
+            0.23529411852359772,
+            0.3235294222831726,
+            0.7352941036224365
+        ]
+    },
+    {
+        "id": "2b55ad4c-b6ea-4dd4-b65b-489d214cdd4d",
+        "image": "images/bar_2b55ad4c-b6ea-4dd4-b65b-489d214cdd4d.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.32258063554763794,
+            0.9032257795333862,
+            0.4193548262119293,
+            0.5806451439857483
+        ]
+    },
+    {
+        "id": "93879eae-9cf2-41fd-92da-3726c7dfd3b7",
+        "image": "images/bar_93879eae-9cf2-41fd-92da-3726c7dfd3b7.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3636363744735718,
+            0.8181818127632141,
+            0.12121212482452393,
+            0.7272727489471436
+        ]
+    },
+    {
+        "id": "e1a3dd92-7ab9-4ea9-9b6d-00a9c7ed1743",
+        "image": "images/bar_e1a3dd92-7ab9-4ea9-9b6d-00a9c7ed1743.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6315789222717285,
+            0.7105262875556946,
+            0.18421052396297455,
+            0.10526315867900848
+        ]
+    },
+    {
+        "id": "833ef856-a480-40e2-9f9c-ea056f221fa5",
+        "image": "images/bar_833ef856-a480-40e2-9f9c-ea056f221fa5.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.29729729890823364,
+            0.4054054021835327,
+            0.8648648858070374,
+            0.13513512909412384
+        ]
+    },
+    {
+        "id": "cc8c2483-a375-49d0-83b7-2ee3e5b53da3",
+        "image": "images/bar_cc8c2483-a375-49d0-83b7-2ee3e5b53da3.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7837837934494019,
+            0.2702702581882477,
+            0.13513512909412384,
+            0.5135135054588318
+        ]
+    },
+    {
+        "id": "2f72d44d-1ae7-4797-ab9b-7f0fe03a4748",
+        "image": "images/bar_2f72d44d-1ae7-4797-ab9b-7f0fe03a4748.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.84375,
+            0.1875,
+            0.625,
+            0.46875
+        ]
+    },
+    {
+        "id": "687ecc51-3992-483a-9cc1-2898611885e1",
+        "image": "images/bar_687ecc51-3992-483a-9cc1-2898611885e1.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.11764705926179886,
+            0.7941176295280457,
+            0.6176470518112183,
+            0.4117647111415863
+        ]
+    },
+    {
+        "id": "773f3a94-4a91-49a8-9089-6afec8d72c32",
+        "image": "images/bar_773f3a94-4a91-49a8-9089-6afec8d72c32.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.2631579041481018,
+            0.34210526943206787,
+            0.18421052396297455,
+            0.8421052694320679
+        ]
+    },
+    {
+        "id": "ca3aaa7f-cf7c-430d-86b3-5143035d733d",
+        "image": "images/bar_ca3aaa7f-cf7c-430d-86b3-5143035d733d.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4864864945411682,
+            0.6486486196517944,
+            0.3513513505458832,
+            0.21621622145175934
+        ]
+    },
+    {
+        "id": "1669c8b3-01c6-4ad9-9cc3-6a14af76270c",
+        "image": "images/bar_1669c8b3-01c6-4ad9-9cc3-6a14af76270c.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.4054054021835327,
+            0.13513512909412384,
+            0.5405405163764954,
+            0.6216216087341309
+        ]
+    },
+    {
+        "id": "46d728f4-08ce-45e0-978a-c371f4b58721",
+        "image": "images/bar_46d728f4-08ce-45e0-978a-c371f4b58721.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.48571428656578064,
+            0.2857142984867096,
+            0.7142857313156128,
+            0.37142857909202576
+        ]
+    },
+    {
+        "id": "4f38609a-8a81-4d45-8790-5948bef662e8",
+        "image": "images/bar_4f38609a-8a81-4d45-8790-5948bef662e8.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5641025900840759,
+            0.3333333432674408,
+            0.20512820780277252,
+            0.4615384638309479
+        ]
+    },
+    {
+        "id": "de515a2b-e13a-44c0-b790-bfded8859e24",
+        "image": "images/bar_de515a2b-e13a-44c0-b790-bfded8859e24.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5,
+            0.2368421107530594,
+            0.7368420958518982,
+            0.15789473056793213
+        ]
+    },
+    {
+        "id": "52f9a39a-d118-404d-9336-a9062ed8e9ad",
+        "image": "images/bar_52f9a39a-d118-404d-9336-a9062ed8e9ad.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.1388888955116272,
+            0.4722222089767456,
+            0.25,
+            0.9166666865348816
+        ]
+    },
+    {
+        "id": "bcc03795-3f56-4fc6-acd0-29600afa02ba",
+        "image": "images/bar_bcc03795-3f56-4fc6-acd0-29600afa02ba.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.18421052396297455,
+            0.2631579041481018,
+            0.7105262875556946,
+            0.4736842215061188
+        ]
+    },
+    {
+        "id": "25912036-be60-4deb-9036-0b7c894c3080",
+        "image": "images/bar_25912036-be60-4deb-9036-0b7c894c3080.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.5588235259056091,
+            0.29411765933036804,
+            0.20588235557079315,
+            0.8823529481887817
+        ]
+    },
+    {
+        "id": "9771beb6-5b70-4bd0-a433-25ef40e95719",
+        "image": "images/bar_9771beb6-5b70-4bd0-a433-25ef40e95719.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7105262875556946,
+            0.18421052396297455,
+            0.44736841320991516,
+            0.28947368264198303
+        ]
+    },
+    {
+        "id": "0f0e87ea-61e1-478b-a516-5fadade2e1d0",
+        "image": "images/bar_0f0e87ea-61e1-478b-a516-5fadade2e1d0.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.23076923191547394,
+            0.41025641560554504,
+            0.7692307829856873,
+            0.1538461595773697
+        ]
+    },
+    {
+        "id": "738fca59-615e-4ce3-a5f1-baed760027b7",
+        "image": "images/bar_738fca59-615e-4ce3-a5f1-baed760027b7.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.7428571581840515,
+            0.6571428775787354,
+            0.11428571492433548,
+            0.34285715222358704
+        ]
+    },
+    {
+        "id": "c5564ad5-f6b0-4e46-beee-bfbd98179c4a",
+        "image": "images/bar_c5564ad5-f6b0-4e46-beee-bfbd98179c4a.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.3235294222831726,
+            0.1764705926179886,
+            0.7941176295280457,
+            0.6470588445663452
+        ]
+    },
+    {
+        "id": "4870d693-47b2-4d7e-a30f-70ac55a77b83",
+        "image": "images/bar_4870d693-47b2-4d7e-a30f-70ac55a77b83.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.23529411852359772,
+            0.47058823704719543,
+            0.3529411852359772,
+            0.8823529481887817
+        ]
+    },
+    {
+        "id": "a51c4454-070d-4989-87bc-5a81737f7c37",
+        "image": "images/bar_a51c4454-070d-4989-87bc-5a81737f7c37.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6363636255264282,
+            0.7272727489471436,
+            0.27272728085517883,
+            0.39393940567970276
+        ]
+    },
+    {
+        "id": "716e7d3e-6df8-459a-bde7-608849009824",
+        "image": "images/bar_716e7d3e-6df8-459a-bde7-608849009824.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.38461539149284363,
+            0.4615384638309479,
+            0.1794871836900711,
+            0.5384615659713745
+        ]
+    },
+    {
+        "id": "a098c7ab-757c-47f3-bf34-a76504fbd26f",
+        "image": "images/bar_a098c7ab-757c-47f3-bf34-a76504fbd26f.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6315789222717285,
+            0.28947368264198303,
+            0.18421052396297455,
+            0.5263158082962036
+        ]
+    },
+    {
+        "id": "db982f0e-a157-4db2-98fc-fadfe4cbc2e1",
+        "image": "images/bar_db982f0e-a157-4db2-98fc-fadfe4cbc2e1.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.6571428775787354,
+            0.2571428716182709,
+            0.800000011920929,
+            0.1428571492433548
+        ]
+    },
+    {
+        "id": "0d3710a2-2853-4b87-9754-dfe560f8b455",
+        "image": "images/bar_0d3710a2-2853-4b87-9754-dfe560f8b455.jpg",
+        "task": "bar",
+        "question": "The bar chart you are looking at is created as follows: First, create a list of five values where each value is between 3 and 39, and all values add up to 100. Next, divide each value in the list by the largest value, so that the largest value becomes 1.0. Now, look at the bar chart again. Identify the largest bar, which is marked with a dot. Move left to right along the bar chart starting from the largest bar, estimating the ratio of the other four values to the maximum. Format your answer as [1.0, x.x, x.x, x.x, x.x].",
+        "value": [
+            1.0,
+            0.8928571343421936,
+            0.7857142686843872,
+            0.6428571343421936,
+            0.25
+        ]
+    }
+]

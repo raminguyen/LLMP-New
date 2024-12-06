@@ -518,7 +518,7 @@ def verify_dataset_and_show_images(main_output_dir="finetuning-EXP2-test"):
         print("✅ No overlapping images found across datasets.")
     print("\n" + "=" * 50)
 
-def verify_dataset(main_output_dir="finetuning-EXP2-test"):
+def verify_dataset(main_output_dir="finetuning-EXP2-5000-test"):
     """
     Verify the dataset by checking the number of images for each task,
     ensuring uniqueness across datasets, and identifying overlaps.
@@ -529,7 +529,9 @@ def verify_dataset(main_output_dir="finetuning-EXP2-test"):
     Returns:
         None
     """
-    
+    import os
+    import json
+    from collections import Counter
 
     # Define dataset file paths
     json_output_dir = os.path.join(main_output_dir, "json")
@@ -585,6 +587,30 @@ def verify_dataset(main_output_dir="finetuning-EXP2-test"):
     val_labels = {tuple(entry['value']) if isinstance(entry['value'], list) else entry['value'] for entry in val_dataset}
     test_labels = {tuple(entry['value']) if isinstance(entry['value'], list) else entry['value'] for entry in test_dataset}
 
+    # Check for overlaps
+    train_val_overlap = train_labels & val_labels
+    train_test_overlap = train_labels & test_labels
+    val_test_overlap = val_labels & test_labels
+
+    # Print overlap information with enhanced formatting
+    print("\n" + "="*50)
+    print(" "*15 + "OVERLAP ANALYSIS")
+    print("="*50)
+    
+    if train_val_overlap:
+        print(f"⚠️  Overlap between Training and Validation: {len(train_val_overlap)} entries")
+    else:
+        print("✅ No overlap between Training and Validation")
+
+    if train_test_overlap:
+        print(f"⚠️  Overlap between Training and Testing: {len(train_test_overlap)} entries")
+    else:
+        print("✅ No overlap between Training and Testing")
+
+    if val_test_overlap:
+        print(f"⚠️  Overlap between Validation and Testing: {len(val_test_overlap)} entries")
+    else:
+        print("✅ No overlap between Validation and Testing")
 
     # Print unique labels report with enhanced formatting
     print("\n" + "="*50)
