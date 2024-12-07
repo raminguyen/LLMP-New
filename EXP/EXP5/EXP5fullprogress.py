@@ -111,31 +111,31 @@ def generate_dataset_exp5(main_output_dir, images_per_task=IMAGES_PER_TASK):
 
             # Determine which dataset the label belongs to
             pot = np.random.choice(3)
-            if label in train_labels:
+            if image_array in train_labels:
                 pot = 0
-            elif label in val_labels:
+            elif image_array in val_labels:
                 pot = 1
-            elif label in test_labels:
+            elif image_array in test_labels:
                 pot = 2
 
             # Training dataset
             if pot == 0 and train_counter < train_target:
-                if label not in train_labels:
-                    train_labels.append(label)
+                if image_array not in train_labels:
+                    train_labels.append(image_array)
                 process_and_save_image(image_array, label, question, combined_dataset_training, image_output_dir, task)
                 train_counter += 1
 
             # Validation dataset
             elif pot == 1 and val_counter < val_target:
-                if label not in val_labels:
-                    val_labels.append(label)
+                if image_array not in val_labels:
+                    val_labels.append(image_array)
                 process_and_save_image(image_array, label, question, combined_dataset_validation, image_output_dir, task)
                 val_counter += 1
 
             # Test dataset
             elif pot == 2 and test_counter < test_target:
-                if label not in test_labels:
-                    test_labels.append(label)
+                if image_array not in test_labels:
+                    test_labels.append(image_array)
                 process_and_save_image(image_array, label, question, combined_dataset_testing, image_output_dir, task)
                 test_counter += 1
 

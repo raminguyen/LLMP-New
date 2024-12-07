@@ -76,7 +76,7 @@ class GPImage:
             image = Figure12.data_to_framed_rectangles(data)
         elif framed == "unframed":
             image = Figure12.data_to_bars(data)
-        return image, labels, parameters
+        return image, labels, data
     
     @staticmethod
     def weber(dots):
