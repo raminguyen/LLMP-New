@@ -1,13 +1,13 @@
 # Standard library imports
 import torch
-
-torch.multiprocessing.set_sharing_strategy('file_system')  # Set the sharing strategy
 import os
+
+torch.multiprocessing.set_sharing_strategy('file_descriptor')  # Set the sharing strategy
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 
 from collections import defaultdict
 import matplotlib.image as mpimg
-
 
 import sys
 import time
@@ -44,11 +44,11 @@ import LLMP as L
 login('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')
 
 """ Define Global Numbers """
-IMAGES_PER_TASK = 10
+IMAGES_PER_TASK = 5000
 MAX_EPOCHS = 10
-NUM_TEST_ROWS = 1
-VAL_CHECK_INTERVAL = 10
-CSV_FILENAME = "EXP4_results.csv"
+NUM_TEST_ROWS = 55
+VAL_CHECK_INTERVAL = 1000
+CSV_FILENAME = "EXP1_results.csv"
 EVALUATION_TIME = 3
 
 # Task-specific queries
@@ -109,35 +109,35 @@ def generate_dataset_exp4(main_output_dir, images_per_task=IMAGES_PER_TASK):
             all_counter += 1  # Track total iterations for debugging
 
             # Generate image and label using the custom module
-            image_array, label, parameters = L.GPImage.figure12(task)
+            image_array, label, data = L.GPImage.figure12(task)
 
             # Determine which dataset the label belongs to
             pot = np.random.choice(3)
-            if (label, parameters) in train_labels:
+            if (label, data) in train_labels:
                 pot = 0
-            elif (label, parameters) in val_labels:
+            elif (label, data) in val_labels:
                 pot = 1
-            elif (label, parameters) in test_labels:
+            elif (label, data) in test_labels:
                 pot = 2
 
             # Training dataset
             if pot == 0 and train_counter < train_target:
-                if (label, parameters) not in train_labels:
-                    train_labels.append((label, parameters))
+                if (label, data) not in train_labels:
+                    train_labels.append((label, data))
                 process_and_save_image(image_array, label, question, combined_dataset_training, image_output_dir, task)
                 train_counter += 1
 
             # Validation dataset
             elif pot == 1 and val_counter < val_target:
-                if (label, parameters) not in val_labels:
-                    val_labels.append((label, parameters))
+                if (label, data) not in val_labels:
+                    val_labels.append((label, data))
                 process_and_save_image(image_array, label, question, combined_dataset_validation, image_output_dir, task)
                 val_counter += 1
 
             # Test dataset
             elif pot == 2 and test_counter < test_target:
-                if (label, parameters) not in test_labels:
-                    test_labels.append((label, parameters))
+                if (label, data) not in test_labels:
+                    test_labels.append((label, data))
                 process_and_save_image(image_array, label, question, combined_dataset_testing, image_output_dir, task)
                 test_counter += 1
 
@@ -394,100 +394,81 @@ def verify_dataset_and_show_images(main_output_dir="finetuning-EXP1-test"):
     print("Overlapping Images Across Datasets")
     print("=" * 50)
 
+    def display_mixed_images_by_task(label, datasets, main_output_dir):
+        """
+        Display images for each task category corresponding to overlapping labels across datasets,
+        ensuring at least 2 images from training, validation, and testing datasets for each task.
 
+        Parameters:
+            label (str or float): The label for the overlapping images.
+            datasets (dict): Dictionary of images grouped by task (training, validation, testing).
+            main_output_dir (str): Directory where images are stored.
 
-def display_mixed_images_by_task(label, datasets, main_output_dir):
-    """
-    Display images for each task category corresponding to overlapping labels across datasets,
-    ensuring at least 2 images from training, validation, and testing datasets for each task.
+        Returns:
+            None
+        """
+        print(f"\nDisplaying images for Overlapping Label: {label}")
 
-    Parameters:
-        label (str or float): The label for the overlapping images.
-        datasets (dict): Dictionary of images grouped by task (training, validation, testing).
-        main_output_dir (str): Directory where images are stored.
-
-    Returns:
-        None
-    """
-    print(f"\nDisplaying images for Overlapping Label: {label}")
-
-    # Group images by task categories
-    task_to_images = defaultdict(lambda: {"training": [], "validation": [], "testing": []})
-    for task_name in ["training", "validation", "testing"]:
-        images = datasets.get(task_name, [])
-        for img in images:
-            task_category = os.path.basename(img).split("_")[0]  # Use basename for file name
-            img_path = os.path.abspath(os.path.join(main_output_dir, img.lstrip("./")))
-
-            if os.path.exists(img_path):  # Ensure path is valid
+        # Group images by task categories
+        task_to_images = defaultdict(lambda: {"training": [], "validation": [], "testing": []})
+        for task_name in ["training", "validation", "testing"]:
+            images = datasets.get(task_name, [])
+            for img in images:
+                task_category = img.split("_")[0]  # Extract the task category from the file name
+                img_path = os.path.abspath(os.path.join(main_output_dir, img.lstrip("./")))
                 task_to_images[task_category][task_name].append(img_path)
-            else:
-                print(f"Warning: Image not found at path: {img_path}")
 
-    # Display mixed images for each task
-    for task, task_images in task_to_images.items():
-        print(f"\nTask: {task}")
+        # Display mixed images for each task
+        for task, task_images in task_to_images.items():
+            print(f"\nTask: {task}")
 
-        # Get images for each dataset
-        training_images = task_images["training"][:5]
-        validation_images = task_images["validation"][:5]
-        testing_images = task_images["testing"][:5]
+            # Ensure at least 2 images from each dataset
+            training_images = task_images["training"][:5]
+            validation_images = task_images["validation"][:5]
+            testing_images = task_images["testing"][:5]
 
-        # Check if there are enough images to display
-        if len(training_images) == 0 and len(validation_images) == 0 and len(testing_images) == 0:
-            print(f"Skipping Task: {task} (No images available across datasets)")
-            continue
+            # Check if the task satisfies the condition
+            if len(training_images) < 5 or len(validation_images) < 5 or len(testing_images) < 5:
+                print(f"Skipping Task: {task} (Not enough images from all datasets)")
+                continue
 
-        # Combine all selected images
-        mixed_images = training_images + validation_images + testing_images
+            # Combine all selected images
+            mixed_images = training_images + validation_images + testing_images
 
-        # Limit to 10 images for display
-        mixed_images = mixed_images[:10]
+            # Limit to 10 images for display (balanced across datasets)
+            mixed_images = mixed_images[:15]
 
-        # Display images in a single row
-        num_images = len(mixed_images)
-        if num_images == 0:
-            print(f"No images found for Task: {task}")
-            continue
+            # Display images in a single row
+            num_images = len(mixed_images)
+            if num_images == 0:
+                print(f"No images found for Task: {task}")
+                continue
 
-        fig, axes = plt.subplots(1, num_images, figsize=(15, 5))
-        if num_images == 1:
-            axes = [axes]  # Ensure axes is iterable for a single image
+            fig, axes = plt.subplots(1, num_images, figsize=(15, 5))
+            if num_images == 1:
+                axes = [axes]  # Ensure axes is iterable for a single image
 
-        for ax, img_path in zip(axes, mixed_images):
-            try:
-                img = mpimg.imread(img_path)
-                dataset_name = "training" if img_path in training_images else (
-                    "validation" if img_path in validation_images else "testing"
-                )
-                ax.imshow(img)
-                ax.set_title(f"{dataset_name}", fontsize=10)
-                ax.axis("off")  # Hide axes
-            except FileNotFoundError:
-                print(f"File not found: {img_path}")
-                ax.set_title("File not found", fontsize=10)
-                ax.axis("off")
+            for ax, img_path in zip(axes, mixed_images):
+                try:
+                    img = mpimg.imread(img_path)
+                    dataset_name = "training" if img_path in training_images else (
+                        "validation" if img_path in validation_images else "testing"
+                    )
+                    ax.imshow(img)
+                    ax.set_title(f"{dataset_name}", fontsize=10)
+                    ax.axis("off")  # Hide axes
+                except FileNotFoundError:
+                    print(f"File not found: {img_path}")
+                    ax.set_title("File not found", fontsize=10)
+                    ax.axis("off")
 
-        plt.tight_layout()
-        plt.show()
+            plt.tight_layout()
+            plt.show()
 
 
     # Limit to 5 overlapping labels for display
     for idx, (label, datasets) in enumerate(overlaps.items()):
-        if idx >= 5:  # Display up to 5 labels
-            break
-        print(f"\nOverlapping Label: {label}")
-        display_mixed_images_by_task(label, datasets, main_output_dir)
-
-    if not overlaps:
-        print("✅ No overlapping images found across datasets.")
-    print("\n" + "=" * 50)
-
-
-
-    # Limit to 5 overlapping labels for display
-    for idx, (label, datasets) in enumerate(overlaps.items()):
-        if idx >= 30:  # Display up to 30 labels
+        if idx >= 5:  # Display up to 30 labels
             break
         print(f"\nOverlapping Label: {label}")
         display_mixed_images_by_task(label, datasets, main_output_dir)

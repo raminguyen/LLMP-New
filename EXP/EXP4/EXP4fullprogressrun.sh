@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#SBATCH --job-name=EXP4fullprogress
+#SBATCH --job-name=EXP1fullprogress
 
 #SBATCH -n 1
-#SBATCH --cpus-per-task=32
-#SBATCH -w chimera12
+#SBATCH --cpus-per-task=16
+#SBATCH -w chimera13
 #SBATCH -N 1
 #SBATCH --account=haehn
 #SBATCH --qos=haehn_unlim
@@ -32,6 +32,10 @@ conda activate sbatch2
 
 # Experiment number passed as an argument
 EXP_NUM=$1
+
+# Run the Python script for the experiment
+ulimit -n 4096
+conda activate sbatch2
 
 # Run the Python script for the experiment
 python EXP4fullprogressrun.py $EXP_NUM
