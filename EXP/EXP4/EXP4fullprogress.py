@@ -109,35 +109,35 @@ def generate_dataset_exp4(main_output_dir, images_per_task=IMAGES_PER_TASK):
             all_counter += 1  # Track total iterations for debugging
 
             # Generate image and label using the custom module
-            image_array, label, parameters = L.GPImage.figure12(task)
+            image_array, label, data = L.GPImage.figure12(task)
 
             # Determine which dataset the label belongs to
             pot = np.random.choice(3)
-            if (label, parameters) in train_labels:
+            if (label, data) in train_labels:
                 pot = 0
-            elif (label, parameters) in val_labels:
+            elif (label, data) in val_labels:
                 pot = 1
-            elif (label, parameters) in test_labels:
+            elif (label, data) in test_labels:
                 pot = 2
 
             # Training dataset
             if pot == 0 and train_counter < train_target:
-                if (label, parameters) not in train_labels:
-                    train_labels.append((label, parameters))
+                if (label, data) not in train_labels:
+                    train_labels.append((label, data))
                 process_and_save_image(image_array, label, question, combined_dataset_training, image_output_dir, task)
                 train_counter += 1
 
             # Validation dataset
             elif pot == 1 and val_counter < val_target:
-                if (label, parameters) not in val_labels:
-                    val_labels.append((label, parameters))
+                if (label, data) not in val_labels:
+                    val_labels.append((label, data))
                 process_and_save_image(image_array, label, question, combined_dataset_validation, image_output_dir, task)
                 val_counter += 1
 
             # Test dataset
             elif pot == 2 and test_counter < test_target:
-                if (label, parameters) not in test_labels:
-                    test_labels.append((label, parameters))
+                if (label, data) not in test_labels:
+                    test_labels.append((label, data))
                 process_and_save_image(image_array, label, question, combined_dataset_testing, image_output_dir, task)
                 test_counter += 1
 
