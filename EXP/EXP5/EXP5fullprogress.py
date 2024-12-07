@@ -111,31 +111,30 @@ def generate_dataset_exp5(main_output_dir, images_per_task=IMAGES_PER_TASK):
 
             # Determine which dataset the label belongs to
             pot = np.random.choice(3)
-            if label in train_labels:
-                pot = 0
-            elif label in val_labels:
-                pot = 1
-            elif label in test_labels:
-                pot = 2
+             # Determine which dataset to assign the label
 
-            # Training dataset
+            image_tuple = tuple(image_array.ravel())  # Convert to tuple for comparisons
+
+            if image_tuple in train_labels:
+                pot = 0
+            elif image_tuple in val_labels:
+                pot = 1
+            elif image_tuple in test_labels:
+                pot = 2
+            else:
+                pot = np.random.choice(3)  # Default random choice
+
+            # Assign to datasets
             if pot == 0 and train_counter < train_target:
-                if label not in train_labels:
-                    train_labels.append(label)
+                train_labels.append(image_tuple)
                 process_and_save_image(image_array, label, question, combined_dataset_training, image_output_dir, task)
                 train_counter += 1
-
-            # Validation dataset
             elif pot == 1 and val_counter < val_target:
-                if label not in val_labels:
-                    val_labels.append(label)
+                val_labels.append(image_tuple)
                 process_and_save_image(image_array, label, question, combined_dataset_validation, image_output_dir, task)
                 val_counter += 1
-
-            # Test dataset
             elif pot == 2 and test_counter < test_target:
-                if label not in test_labels:
-                    test_labels.append(label)
+                test_labels.append(image_tuple)
                 process_and_save_image(image_array, label, question, combined_dataset_testing, image_output_dir, task)
                 test_counter += 1
 
